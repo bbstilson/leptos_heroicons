@@ -1,5 +1,7 @@
 # Heroicons - Leptos
 
+![demo video](./example.webm)
+
 ## Running
 
 ```bash
