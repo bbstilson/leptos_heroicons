@@ -1,33 +1,37 @@
 # Leptos Heroicons
 
-[Heroicons](https://heroicons.com/) Component for [Leptos](https://leptos.dev/)
+[Heroicons](https://heroicons.com/) Components for [Leptos](https://leptos.dev/)
 
 ## Usage
 
-For each icon you want to use, you can add a feature flag. Only the icons you specify will be compiled into your application.
+For each icon you want to use, you'll need to add a feature flag for those components. Only the icons you specify will be compiled into your application.
 
 ```toml
 leptos_heroicons = { version = "0.1.0", features = [
-  "24-solid-power",
-  "24-outline-wrench",
-  "20-solid-credit-card"
+    "24-solid-power",
+    "24-outline-wrench",
+    "20-solid-credit-card"
 ]}
 ```
 
-You can also include all the icons of a given type by specifying the `size-type`:
+You can also include all the icons of a given type by specifying the `size-type` feature:
 
 ```toml
-leptos_heroicons = { version = "0.1.0", features = ["24-solid"] }
+leptos_heroicons = { version = "0.1.0", features = [
+    "24-solid",
+    "24-outline",
+    "20-solid"
+]}
 ```
 
-In your leptos code:
+In your leptos app:
 
 ```rs
 use leptos::*;
 use leptos_heroions::size_24::solid::Power;
 
 #[component]
-fn MyComponent(cx: Scope) -> impl IntoView {
+fn UnlimitedPower(cx: Scope) -> impl IntoView {
     view! { cx,
         <Power />
     }

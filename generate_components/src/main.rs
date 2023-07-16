@@ -7,7 +7,6 @@ use std::path;
 
 mod constants;
 mod download_heroicons;
-mod generator;
 
 use constants::*;
 use download_heroicons::*;
