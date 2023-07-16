@@ -900,7 +900,7 @@ all-features = true
 rustdoc-args = ["--cfg", "docsrs"]
 
 [workspace]
-members = ["example", "generate_components"]
+members = ["example", "generate_components", "generate_example_components"]
 
 [workspace.dependencies.leptos]
 features = ["nightly"]
