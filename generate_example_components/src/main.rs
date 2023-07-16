@@ -6,6 +6,7 @@ use std::io::Write;
 
 use anyhow::Result;
 use convert_case::Casing;
+use indoc::formatdoc;
 
 fn main() -> Result<()> {
     let file = fs::File::open("../src/lib.rs")?;
@@ -16,7 +17,7 @@ fn main() -> Result<()> {
     let component_re = regex::Regex::new(r"pub fn (?<component_name>\w+)\(")?;
 
     let mut indent = 0;
-    let mut module_path: Vec<String> = vec![];
+    let mut module_path_stack: Vec<String> = vec![];
     let mut component_type_to_components: HashMap<String, Vec<String>> =
         HashMap::new();
 
@@ -28,21 +29,23 @@ fn main() -> Result<()> {
 
             if curr_indent == indent {
                 // pop out of the current module and go to the next one
-                module_path.pop();
+                module_path_stack.pop();
             } else if curr_indent < indent {
                 // pop out of the current module
-                module_path.pop();
+                module_path_stack.pop();
                 // pop out of the parent module
-                module_path.pop();
+                module_path_stack.pop();
             }
-            module_path.push(caps["module_name"].to_string());
+            module_path_stack.push(caps["module_name"].to_string());
             indent = curr_indent;
         }
 
         if let Some(caps) = component_re.captures(&line) {
-            let module = module_path.join("_");
+            let module = module_path_stack.join("::");
+
             let component_name = caps["component_name"].to_string();
-            let component = format!("<{component_name} />");
+            let component = formatdoc! {r#"
+            view! {{ cx, <{component_name} /> }},"#};
             component_type_to_components
                 .entry(module)
                 .and_modify(|cs| cs.push(component.clone()))
@@ -57,17 +60,24 @@ fn main() -> Result<()> {
         writeln!(
             &mut components_file,
             "{}",
-            format!(
-                "pub const {}: Vec<View> = vec![",
-                component_type.to_case(convert_case::Case::UpperSnake)
-            )
+            formatdoc! {r#"
+                pub fn {}(cx: Scope) -> Vec<impl IntoView> {{
+                    use leptos_heroicons::{component_type}::*;
+
+                    vec!["#,
+                component_type.replace("::", "_").to_case(convert_case::Case::Snake)
+            }
         )?;
 
         for component in components {
-            writeln!(&mut components_file, "{},", format!("    {component}"))?;
+            writeln!(
+                &mut components_file,
+                "{}",
+                format!("        {component}")
+            )?;
         }
 
-        writeln!(&mut components_file, "];\n")?;
+        writeln!(&mut components_file, "    ]\n}}\n")?;
     }
 
     Ok(())

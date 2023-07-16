@@ -6,7 +6,10 @@ pub mod size_24 {
         #[allow(unused_imports)]
         use leptos::*;
 
-        #[cfg(any(feature = "24-outline-inbox-arrow-down", feature = "24-outline"))]
+        #[cfg(any(
+            feature = "24-outline-inbox-arrow-down",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn InboxArrowDown(
             cx: Scope,
@@ -18,8 +21,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-pencil-square", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-pencil-square",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn PencilSquare(
             cx: Scope,
@@ -31,7 +37,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-power", feature = "24-outline"))]
         #[component]
         pub fn Power(
@@ -44,8 +50,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-archive-box-x-mark", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-archive-box-x-mark",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArchiveBoxXMark(
             cx: Scope,
@@ -57,7 +66,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-gift-top", feature = "24-outline"))]
         #[component]
         pub fn GiftTop(
@@ -70,8 +79,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-document-minus", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-document-minus",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn DocumentMinus(
             cx: Scope,
@@ -83,8 +95,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-top-right-on-square", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-top-right-on-square",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowTopRightOnSquare(
             cx: Scope,
@@ -96,7 +111,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-bell", feature = "24-outline"))]
         #[component]
         pub fn Bell(
@@ -109,7 +124,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-ticket", feature = "24-outline"))]
         #[component]
         pub fn Ticket(
@@ -122,7 +137,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-cog", feature = "24-outline"))]
         #[component]
         pub fn Cog(
@@ -135,8 +150,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-long-up", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-long-up",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowLongUp(
             cx: Scope,
@@ -148,7 +166,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-variable", feature = "24-outline"))]
         #[component]
         pub fn Variable(
@@ -161,8 +179,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-document-arrow-down", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-document-arrow-down",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn DocumentArrowDown(
             cx: Scope,
@@ -174,8 +195,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-signal-slash", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-signal-slash",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn SignalSlash(
             cx: Scope,
@@ -187,8 +211,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-code-bracket-square", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-code-bracket-square",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn CodeBracketSquare(
             cx: Scope,
@@ -200,7 +227,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-arrow-right", feature = "24-outline"))]
         #[component]
         pub fn ArrowRight(
@@ -213,7 +240,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-credit-card", feature = "24-outline"))]
         #[component]
         pub fn CreditCard(
@@ -226,7 +253,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-x-mark", feature = "24-outline"))]
         #[component]
         pub fn XMark(
@@ -239,8 +266,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-building-storefront", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-building-storefront",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn BuildingStorefront(
             cx: Scope,
@@ -252,7 +282,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-light-bulb", feature = "24-outline"))]
         #[component]
         pub fn LightBulb(
@@ -265,8 +295,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-bookmark-square", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-bookmark-square",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn BookmarkSquare(
             cx: Scope,
@@ -278,7 +311,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-scissors", feature = "24-outline"))]
         #[component]
         pub fn Scissors(
@@ -291,7 +324,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-bars-3", feature = "24-outline"))]
         #[component]
         pub fn Bars3(
@@ -304,7 +337,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-table-cells", feature = "24-outline"))]
         #[component]
         pub fn TableCells(
@@ -317,8 +350,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-square-3-stack-3d", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-square-3-stack-3d",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn Square3Stack3D(
             cx: Scope,
@@ -330,7 +366,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-bars-2", feature = "24-outline"))]
         #[component]
         pub fn Bars2(
@@ -343,8 +379,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-up-left", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-up-left",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowUpLeft(
             cx: Scope,
@@ -356,8 +395,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-minus-circle", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-minus-circle",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn MinusCircle(
             cx: Scope,
@@ -369,8 +411,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-left-circle", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-left-circle",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowLeftCircle(
             cx: Scope,
@@ -382,8 +427,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-magnifying-glass-circle", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-magnifying-glass-circle",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn MagnifyingGlassCircle(
             cx: Scope,
@@ -395,8 +443,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-shopping-cart", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-shopping-cart",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ShoppingCart(
             cx: Scope,
@@ -408,8 +459,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-rocket-launch", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-rocket-launch",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn RocketLaunch(
             cx: Scope,
@@ -421,7 +475,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-photo", feature = "24-outline"))]
         #[component]
         pub fn Photo(
@@ -434,7 +488,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-link", feature = "24-outline"))]
         #[component]
         pub fn Link(
@@ -447,8 +501,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-device-tablet", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-device-tablet",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn DeviceTablet(
             cx: Scope,
@@ -460,8 +517,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-shield-check", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-shield-check",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ShieldCheck(
             cx: Scope,
@@ -473,8 +533,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-presentation-chart-line", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-presentation-chart-line",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn PresentationChartLine(
             cx: Scope,
@@ -486,8 +549,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-long-right", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-long-right",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowLongRight(
             cx: Scope,
@@ -499,7 +565,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-film", feature = "24-outline"))]
         #[component]
         pub fn Film(
@@ -512,8 +578,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-clipboard-document-check", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-clipboard-document-check",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ClipboardDocumentCheck(
             cx: Scope,
@@ -525,7 +594,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-window", feature = "24-outline"))]
         #[component]
         pub fn Window(
@@ -538,7 +607,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-cog-8-tooth", feature = "24-outline"))]
         #[component]
         pub fn Cog8Tooth(
@@ -552,8 +621,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-up-right", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-up-right",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowUpRight(
             cx: Scope,
@@ -565,7 +637,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-bug-ant", feature = "24-outline"))]
         #[component]
         pub fn BugAnt(
@@ -578,8 +650,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-bars-arrow-up", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-bars-arrow-up",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn BarsArrowUp(
             cx: Scope,
@@ -591,8 +666,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-bookmark-slash", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-bookmark-slash",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn BookmarkSlash(
             cx: Scope,
@@ -604,7 +682,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-calculator", feature = "24-outline"))]
         #[component]
         pub fn Calculator(
@@ -617,7 +695,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-beaker", feature = "24-outline"))]
         #[component]
         pub fn Beaker(
@@ -630,8 +708,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-finger-print", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-finger-print",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn FingerPrint(
             cx: Scope,
@@ -643,8 +724,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-speaker-x-mark", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-speaker-x-mark",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn SpeakerXMark(
             cx: Scope,
@@ -656,8 +740,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-down-right", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-down-right",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowDownRight(
             cx: Scope,
@@ -669,7 +756,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-megaphone", feature = "24-outline"))]
         #[component]
         pub fn Megaphone(
@@ -682,7 +769,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-cpu-chip", feature = "24-outline"))]
         #[component]
         pub fn CpuChip(
@@ -695,8 +782,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-document-chart-bar", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-document-chart-bar",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn DocumentChartBar(
             cx: Scope,
@@ -708,8 +798,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-academic-cap", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-academic-cap",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn AcademicCap(
             cx: Scope,
@@ -721,8 +814,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-exclamation-triangle", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-exclamation-triangle",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ExclamationTriangle(
             cx: Scope,
@@ -734,7 +830,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-face-smile", feature = "24-outline"))]
         #[component]
         pub fn FaceSmile(
@@ -747,7 +843,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-stop-circle", feature = "24-outline"))]
         #[component]
         pub fn StopCircle(
@@ -761,8 +857,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-chevron-up-down", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-chevron-up-down",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ChevronUpDown(
             cx: Scope,
@@ -774,7 +873,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-paint-brush", feature = "24-outline"))]
         #[component]
         pub fn PaintBrush(
@@ -787,7 +886,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-envelope", feature = "24-outline"))]
         #[component]
         pub fn Envelope(
@@ -800,8 +899,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-magnifying-glass", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-magnifying-glass",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn MagnifyingGlass(
             cx: Scope,
@@ -813,7 +915,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-backward", feature = "24-outline"))]
         #[component]
         pub fn Backward(
@@ -826,8 +928,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-uturn-right", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-uturn-right",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowUturnRight(
             cx: Scope,
@@ -839,7 +944,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-sun", feature = "24-outline"))]
         #[component]
         pub fn Sun(
@@ -852,8 +957,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-down-on-square", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-down-on-square",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowDownOnSquare(
             cx: Scope,
@@ -865,7 +973,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-bookmark", feature = "24-outline"))]
         #[component]
         pub fn Bookmark(
@@ -878,7 +986,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-chevron-up", feature = "24-outline"))]
         #[component]
         pub fn ChevronUp(
@@ -891,8 +999,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-exclamation-circle", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-exclamation-circle",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ExclamationCircle(
             cx: Scope,
@@ -904,8 +1015,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-document-text", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-document-text",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn DocumentText(
             cx: Scope,
@@ -917,7 +1031,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-heart", feature = "24-outline"))]
         #[component]
         pub fn Heart(
@@ -930,7 +1044,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-cake", feature = "24-outline"))]
         #[component]
         pub fn Cake(
@@ -943,7 +1057,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-home", feature = "24-outline"))]
         #[component]
         pub fn Home(
@@ -956,7 +1070,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-gif", feature = "24-outline"))]
         #[component]
         pub fn Gif(
@@ -969,7 +1083,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-play", feature = "24-outline"))]
         #[component]
         pub fn Play(
@@ -982,8 +1096,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-chevron-right", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-chevron-right",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ChevronRight(
             cx: Scope,
@@ -995,8 +1112,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-presentation-chart-bar", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-presentation-chart-bar",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn PresentationChartBar(
             cx: Scope,
@@ -1008,8 +1128,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-phone-arrow-up-right", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-phone-arrow-up-right",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn PhoneArrowUpRight(
             cx: Scope,
@@ -1021,7 +1144,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-bell-snooze", feature = "24-outline"))]
         #[component]
         pub fn BellSnooze(
@@ -1034,7 +1157,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-tv", feature = "24-outline"))]
         #[component]
         pub fn Tv(
@@ -1047,8 +1170,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-currency-dollar", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-currency-dollar",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn CurrencyDollar(
             cx: Scope,
@@ -1060,8 +1186,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-currency-yen", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-currency-yen",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn CurrencyYen(
             cx: Scope,
@@ -1073,8 +1202,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-envelope-open", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-envelope-open",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn EnvelopeOpen(
             cx: Scope,
@@ -1086,8 +1218,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-chevron-double-right", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-chevron-double-right",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ChevronDoubleRight(
             cx: Scope,
@@ -1099,8 +1234,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-folder-minus", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-folder-minus",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn FolderMinus(
             cx: Scope,
@@ -1112,7 +1250,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-user-plus", feature = "24-outline"))]
         #[component]
         pub fn UserPlus(
@@ -1125,7 +1263,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-trash", feature = "24-outline"))]
         #[component]
         pub fn Trash(
@@ -1138,8 +1276,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-device-phone-mobile", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-device-phone-mobile",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn DevicePhoneMobile(
             cx: Scope,
@@ -1151,7 +1292,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-hashtag", feature = "24-outline"))]
         #[component]
         pub fn Hashtag(
@@ -1164,7 +1305,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-bars-4", feature = "24-outline"))]
         #[component]
         pub fn Bars4(
@@ -1177,8 +1318,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-chat-bubble-bottom-center-text", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-chat-bubble-bottom-center-text",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ChatBubbleBottomCenterText(
             cx: Scope,
@@ -1190,8 +1334,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-adjustments-vertical", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-adjustments-vertical",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn AdjustmentsVertical(
             cx: Scope,
@@ -1203,8 +1350,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-globe-europe-africa", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-globe-europe-africa",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn GlobeEuropeAfrica(
             cx: Scope,
@@ -1216,8 +1366,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-chat-bubble-oval-left-ellipsis", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-chat-bubble-oval-left-ellipsis",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ChatBubbleOvalLeftEllipsis(
             cx: Scope,
@@ -1229,8 +1382,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-small-down", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-small-down",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowSmallDown(
             cx: Scope,
@@ -1242,8 +1398,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-clipboard-document", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-clipboard-document",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ClipboardDocument(
             cx: Scope,
@@ -1255,7 +1414,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-phone", feature = "24-outline"))]
         #[component]
         pub fn Phone(
@@ -1268,7 +1427,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-scale", feature = "24-outline"))]
         #[component]
         pub fn Scale(
@@ -1281,8 +1440,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-up-tray", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-up-tray",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowUpTray(
             cx: Scope,
@@ -1294,8 +1456,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-chevron-left", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-chevron-left",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ChevronLeft(
             cx: Scope,
@@ -1307,7 +1472,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-check-badge", feature = "24-outline"))]
         #[component]
         pub fn CheckBadge(
@@ -1320,7 +1485,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-cube", feature = "24-outline"))]
         #[component]
         pub fn Cube(
@@ -1333,8 +1498,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-viewfinder-circle", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-viewfinder-circle",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ViewfinderCircle(
             cx: Scope,
@@ -1346,8 +1514,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-ellipsis-horizontal", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-ellipsis-horizontal",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn EllipsisHorizontal(
             cx: Scope,
@@ -1359,8 +1530,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-document-check", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-document-check",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn DocumentCheck(
             cx: Scope,
@@ -1372,7 +1546,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-play-pause", feature = "24-outline"))]
         #[component]
         pub fn PlayPause(
@@ -1385,8 +1559,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-bars-arrow-down", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-bars-arrow-down",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn BarsArrowDown(
             cx: Scope,
@@ -1398,8 +1575,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-computer-desktop", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-computer-desktop",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ComputerDesktop(
             cx: Scope,
@@ -1411,7 +1591,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-home-modern", feature = "24-outline"))]
         #[component]
         pub fn HomeModern(
@@ -1424,8 +1604,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-currency-bangladeshi", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-currency-bangladeshi",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn CurrencyBangladeshi(
             cx: Scope,
@@ -1437,8 +1620,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-shopping-bag", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-shopping-bag",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ShoppingBag(
             cx: Scope,
@@ -1450,7 +1636,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-globe-alt", feature = "24-outline"))]
         #[component]
         pub fn GlobeAlt(
@@ -1463,8 +1649,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-ellipsis-vertical", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-ellipsis-vertical",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn EllipsisVertical(
             cx: Scope,
@@ -1476,7 +1665,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-inbox-stack", feature = "24-outline"))]
         #[component]
         pub fn InboxStack(
@@ -1489,7 +1678,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-hand-raised", feature = "24-outline"))]
         #[component]
         pub fn HandRaised(
@@ -1502,8 +1691,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-question-mark-circle", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-question-mark-circle",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn QuestionMarkCircle(
             cx: Scope,
@@ -1515,8 +1707,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-document-plus", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-document-plus",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn DocumentPlus(
             cx: Scope,
@@ -1528,7 +1723,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-fire", feature = "24-outline"))]
         #[component]
         pub fn Fire(
@@ -1542,8 +1737,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-ellipsis-horizontal-circle", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-ellipsis-horizontal-circle",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn EllipsisHorizontalCircle(
             cx: Scope,
@@ -1555,8 +1753,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-phone-arrow-down-left", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-phone-arrow-down-left",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn PhoneArrowDownLeft(
             cx: Scope,
@@ -1568,8 +1769,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-magnifying-glass-plus", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-magnifying-glass-plus",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn MagnifyingGlassPlus(
             cx: Scope,
@@ -1581,8 +1785,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-identification", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-identification",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn Identification(
             cx: Scope,
@@ -1594,7 +1801,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-bell-slash", feature = "24-outline"))]
         #[component]
         pub fn BellSlash(
@@ -1607,7 +1814,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-key", feature = "24-outline"))]
         #[component]
         pub fn Key(
@@ -1620,8 +1827,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-left-on-rectangle", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-left-on-rectangle",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowLeftOnRectangle(
             cx: Scope,
@@ -1633,8 +1843,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-adjustments-horizontal", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-adjustments-horizontal",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn AdjustmentsHorizontal(
             cx: Scope,
@@ -1646,8 +1859,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-rectangle-stack", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-rectangle-stack",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn RectangleStack(
             cx: Scope,
@@ -1659,8 +1875,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-down-on-square-stack", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-down-on-square-stack",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowDownOnSquareStack(
             cx: Scope,
@@ -1672,8 +1891,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-globe-americas", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-globe-americas",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn GlobeAmericas(
             cx: Scope,
@@ -1685,8 +1907,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-clipboard-document-list", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-clipboard-document-list",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ClipboardDocumentList(
             cx: Scope,
@@ -1698,8 +1923,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-building-office-2", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-building-office-2",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn BuildingOffice2(
             cx: Scope,
@@ -1711,8 +1939,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-up-on-square", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-up-on-square",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowUpOnSquare(
             cx: Scope,
@@ -1724,7 +1955,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-sparkles", feature = "24-outline"))]
         #[component]
         pub fn Sparkles(
@@ -1737,7 +1968,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-backspace", feature = "24-outline"))]
         #[component]
         pub fn Backspace(
@@ -1750,8 +1981,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-currency-rupee", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-currency-rupee",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn CurrencyRupee(
             cx: Scope,
@@ -1763,7 +1997,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-lifebuoy", feature = "24-outline"))]
         #[component]
         pub fn Lifebuoy(
@@ -1776,8 +2010,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-bars-3-bottom-right", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-bars-3-bottom-right",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn Bars3BottomRight(
             cx: Scope,
@@ -1789,8 +2026,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-video-camera-slash", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-video-camera-slash",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn VideoCameraSlash(
             cx: Scope,
@@ -1802,8 +2042,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-hand-thumb-up", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-hand-thumb-up",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn HandThumbUp(
             cx: Scope,
@@ -1815,7 +2058,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-folder-open", feature = "24-outline"))]
         #[component]
         pub fn FolderOpen(
@@ -1828,8 +2071,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-hand-thumb-down", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-hand-thumb-down",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn HandThumbDown(
             cx: Scope,
@@ -1841,8 +2087,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-wrench-screwdriver", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-wrench-screwdriver",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn WrenchScrewdriver(
             cx: Scope,
@@ -1854,8 +2103,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-magnifying-glass-minus", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-magnifying-glass-minus",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn MagnifyingGlassMinus(
             cx: Scope,
@@ -1867,7 +2119,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-map", feature = "24-outline"))]
         #[component]
         pub fn Map(
@@ -1880,8 +2132,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-folder-arrow-down", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-folder-arrow-down",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn FolderArrowDown(
             cx: Scope,
@@ -1893,7 +2148,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-rss", feature = "24-outline"))]
         #[component]
         pub fn Rss(
@@ -1906,8 +2161,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-phone-x-mark", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-phone-x-mark",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn PhoneXMark(
             cx: Scope,
@@ -1919,7 +2177,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-user-group", feature = "24-outline"))]
         #[component]
         pub fn UserGroup(
@@ -1932,7 +2190,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-document", feature = "24-outline"))]
         #[component]
         pub fn Document(
@@ -1945,8 +2203,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-long-left", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-long-left",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowLongLeft(
             cx: Scope,
@@ -1958,8 +2219,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-down-circle", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-down-circle",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowDownCircle(
             cx: Scope,
@@ -1971,7 +2235,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-cog-6-tooth", feature = "24-outline"))]
         #[component]
         pub fn Cog6Tooth(
@@ -1985,7 +2249,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-user-circle", feature = "24-outline"))]
         #[component]
         pub fn UserCircle(
@@ -1998,7 +2262,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-at-symbol", feature = "24-outline"))]
         #[component]
         pub fn AtSymbol(
@@ -2011,7 +2275,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-wrench", feature = "24-outline"))]
         #[component]
         pub fn Wrench(
@@ -2025,8 +2289,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-trending-up", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-trending-up",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowTrendingUp(
             cx: Scope,
@@ -2038,7 +2305,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-list-bullet", feature = "24-outline"))]
         #[component]
         pub fn ListBullet(
@@ -2051,8 +2318,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-calendar-days", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-calendar-days",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn CalendarDays(
             cx: Scope,
@@ -2064,8 +2334,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrows-pointing-in", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrows-pointing-in",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowsPointingIn(
             cx: Scope,
@@ -2077,7 +2350,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-arrow-path", feature = "24-outline"))]
         #[component]
         pub fn ArrowPath(
@@ -2090,7 +2363,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-x-circle", feature = "24-outline"))]
         #[component]
         pub fn XCircle(
@@ -2103,8 +2376,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-right-circle", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-right-circle",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowRightCircle(
             cx: Scope,
@@ -2116,7 +2392,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-minus-small", feature = "24-outline"))]
         #[component]
         pub fn MinusSmall(
@@ -2129,8 +2405,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-cube-transparent", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-cube-transparent",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn CubeTransparent(
             cx: Scope,
@@ -2142,7 +2421,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-eye", feature = "24-outline"))]
         #[component]
         pub fn Eye(
@@ -2156,7 +2435,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-plus-circle", feature = "24-outline"))]
         #[component]
         pub fn PlusCircle(
@@ -2169,8 +2448,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-chat-bubble-left-right", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-chat-bubble-left-right",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ChatBubbleLeftRight(
             cx: Scope,
@@ -2182,7 +2464,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-arrow-up", feature = "24-outline"))]
         #[component]
         pub fn ArrowUp(
@@ -2195,8 +2477,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-chart-bar-square", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-chart-bar-square",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ChartBarSquare(
             cx: Scope,
@@ -2208,7 +2493,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-qr-code", feature = "24-outline"))]
         #[component]
         pub fn QrCode(
@@ -2222,8 +2507,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-chevron-double-down", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-chevron-double-down",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ChevronDoubleDown(
             cx: Scope,
@@ -2235,7 +2523,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-map-pin", feature = "24-outline"))]
         #[component]
         pub fn MapPin(
@@ -2249,7 +2537,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-battery-100", feature = "24-outline"))]
         #[component]
         pub fn Battery100(
@@ -2262,8 +2550,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-paper-airplane", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-paper-airplane",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn PaperAirplane(
             cx: Scope,
@@ -2275,8 +2566,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-down-tray", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-down-tray",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowDownTray(
             cx: Scope,
@@ -2288,7 +2582,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-queue-list", feature = "24-outline"))]
         #[component]
         pub fn QueueList(
@@ -2301,8 +2595,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-uturn-left", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-uturn-left",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowUturnLeft(
             cx: Scope,
@@ -2314,8 +2611,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-trending-down", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-trending-down",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowTrendingDown(
             cx: Scope,
@@ -2327,8 +2627,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-code-bracket", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-code-bracket",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn CodeBracket(
             cx: Scope,
@@ -2340,7 +2643,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-pencil", feature = "24-outline"))]
         #[component]
         pub fn Pencil(
@@ -2353,7 +2656,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-clock", feature = "24-outline"))]
         #[component]
         pub fn Clock(
@@ -2366,7 +2669,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-clipboard", feature = "24-outline"))]
         #[component]
         pub fn Clipboard(
@@ -2379,7 +2682,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-plus-small", feature = "24-outline"))]
         #[component]
         pub fn PlusSmall(
@@ -2392,8 +2695,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-pause-circle", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-pause-circle",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn PauseCircle(
             cx: Scope,
@@ -2405,7 +2711,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-camera", feature = "24-outline"))]
         #[component]
         pub fn Camera(
@@ -2419,8 +2725,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-currency-euro", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-currency-euro",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn CurrencyEuro(
             cx: Scope,
@@ -2432,8 +2741,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-speaker-wave", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-speaker-wave",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn SpeakerWave(
             cx: Scope,
@@ -2445,8 +2757,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrows-up-down", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrows-up-down",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowsUpDown(
             cx: Scope,
@@ -2458,7 +2773,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-banknotes", feature = "24-outline"))]
         #[component]
         pub fn Banknotes(
@@ -2471,8 +2786,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-chevron-double-up", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-chevron-double-up",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ChevronDoubleUp(
             cx: Scope,
@@ -2484,8 +2802,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-squares-plus", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-squares-plus",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn SquaresPlus(
             cx: Scope,
@@ -2497,8 +2818,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-view-columns", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-view-columns",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ViewColumns(
             cx: Scope,
@@ -2510,7 +2834,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-newspaper", feature = "24-outline"))]
         #[component]
         pub fn Newspaper(
@@ -2523,7 +2847,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-user", feature = "24-outline"))]
         #[component]
         pub fn User(
@@ -2536,7 +2860,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-inbox", feature = "24-outline"))]
         #[component]
         pub fn Inbox(
@@ -2549,7 +2873,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-microphone", feature = "24-outline"))]
         #[component]
         pub fn Microphone(
@@ -2562,8 +2886,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-down-left", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-down-left",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowDownLeft(
             cx: Scope,
@@ -2575,8 +2902,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-small-up", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-small-up",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowSmallUp(
             cx: Scope,
@@ -2588,7 +2918,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-book-open", feature = "24-outline"))]
         #[component]
         pub fn BookOpen(
@@ -2601,7 +2931,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-users", feature = "24-outline"))]
         #[component]
         pub fn Users(
@@ -2614,7 +2944,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-chart-pie", feature = "24-outline"))]
         #[component]
         pub fn ChartPie(
@@ -2628,8 +2958,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-command-line", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-command-line",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn CommandLine(
             cx: Scope,
@@ -2641,8 +2974,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-building-library", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-building-library",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn BuildingLibrary(
             cx: Scope,
@@ -2654,8 +2990,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-cloud-arrow-up", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-cloud-arrow-up",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn CloudArrowUp(
             cx: Scope,
@@ -2667,7 +3006,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-wallet", feature = "24-outline"))]
         #[component]
         pub fn Wallet(
@@ -2680,7 +3019,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-lock-closed", feature = "24-outline"))]
         #[component]
         pub fn LockClosed(
@@ -2693,8 +3032,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-information-circle", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-information-circle",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn InformationCircle(
             cx: Scope,
@@ -2706,7 +3048,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-funnel", feature = "24-outline"))]
         #[component]
         pub fn Funnel(
@@ -2719,8 +3061,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-cursor-arrow-rays", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-cursor-arrow-rays",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn CursorArrowRays(
             cx: Scope,
@@ -2732,8 +3077,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-check-circle", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-check-circle",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn CheckCircle(
             cx: Scope,
@@ -2745,8 +3093,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrows-pointing-out", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrows-pointing-out",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowsPointingOut(
             cx: Scope,
@@ -2758,8 +3109,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-chevron-down", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-chevron-down",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ChevronDown(
             cx: Scope,
@@ -2771,8 +3125,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-archive-box-arrow-down", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-archive-box-arrow-down",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArchiveBoxArrowDown(
             cx: Scope,
@@ -2784,7 +3141,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-share", feature = "24-outline"))]
         #[component]
         pub fn Share(
@@ -2797,8 +3154,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-document-magnifying-glass", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-document-magnifying-glass",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn DocumentMagnifyingGlass(
             cx: Scope,
@@ -2810,7 +3170,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-bell-alert", feature = "24-outline"))]
         #[component]
         pub fn BellAlert(
@@ -2823,7 +3183,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-folder-plus", feature = "24-outline"))]
         #[component]
         pub fn FolderPlus(
@@ -2836,7 +3196,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-wifi", feature = "24-outline"))]
         #[component]
         pub fn Wifi(
@@ -2849,7 +3209,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-eye-slash", feature = "24-outline"))]
         #[component]
         pub fn EyeSlash(
@@ -2862,7 +3222,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-plus", feature = "24-outline"))]
         #[component]
         pub fn Plus(
@@ -2875,8 +3235,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-globe-asia-australia", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-globe-asia-australia",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn GlobeAsiaAustralia(
             cx: Scope,
@@ -2888,7 +3251,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-language", feature = "24-outline"))]
         #[component]
         pub fn Language(
@@ -2901,8 +3264,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-small-left", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-small-left",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowSmallLeft(
             cx: Scope,
@@ -2914,7 +3280,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-battery-50", feature = "24-outline"))]
         #[component]
         pub fn Battery50(
@@ -2927,7 +3293,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-printer", feature = "24-outline"))]
         #[component]
         pub fn Printer(
@@ -2940,7 +3306,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-gift", feature = "24-outline"))]
         #[component]
         pub fn Gift(
@@ -2953,7 +3319,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-forward", feature = "24-outline"))]
         #[component]
         pub fn Forward(
@@ -2966,8 +3332,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-small-right", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-small-right",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowSmallRight(
             cx: Scope,
@@ -2979,7 +3348,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-arrow-down", feature = "24-outline"))]
         #[component]
         pub fn ArrowDown(
@@ -2992,7 +3361,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-radio", feature = "24-outline"))]
         #[component]
         pub fn Radio(
@@ -3005,7 +3374,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-flag", feature = "24-outline"))]
         #[component]
         pub fn Flag(
@@ -3018,8 +3387,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-video-camera", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-video-camera",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn VideoCamera(
             cx: Scope,
@@ -3031,7 +3403,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-face-frown", feature = "24-outline"))]
         #[component]
         pub fn FaceFrown(
@@ -3044,7 +3416,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-signal", feature = "24-outline"))]
         #[component]
         pub fn Signal(
@@ -3057,8 +3429,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-cloud-arrow-down", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-cloud-arrow-down",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn CloudArrowDown(
             cx: Scope,
@@ -3070,8 +3445,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-circle-stack", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-circle-stack",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn CircleStack(
             cx: Scope,
@@ -3083,8 +3461,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-currency-pound", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-currency-pound",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn CurrencyPound(
             cx: Scope,
@@ -3096,7 +3477,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-no-symbol", feature = "24-outline"))]
         #[component]
         pub fn NoSymbol(
@@ -3109,8 +3490,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrows-right-left", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrows-right-left",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowsRightLeft(
             cx: Scope,
@@ -3122,7 +3506,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-lock-open", feature = "24-outline"))]
         #[component]
         pub fn LockOpen(
@@ -3135,7 +3519,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-bolt", feature = "24-outline"))]
         #[component]
         pub fn Bolt(
@@ -3148,7 +3532,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-truck", feature = "24-outline"))]
         #[component]
         pub fn Truck(
@@ -3161,8 +3545,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-server-stack", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-server-stack",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ServerStack(
             cx: Scope,
@@ -3174,8 +3561,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-bars-3-center-left", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-bars-3-center-left",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn Bars3CenterLeft(
             cx: Scope,
@@ -3187,7 +3577,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-check", feature = "24-outline"))]
         #[component]
         pub fn Check(
@@ -3200,8 +3590,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-square-2-stack", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-square-2-stack",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn Square2Stack(
             cx: Scope,
@@ -3213,7 +3606,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-archive-box", feature = "24-outline"))]
         #[component]
         pub fn ArchiveBox(
@@ -3226,8 +3619,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-shield-exclamation", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-shield-exclamation",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ShieldExclamation(
             cx: Scope,
@@ -3239,7 +3635,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-tag", feature = "24-outline"))]
         #[component]
         pub fn Tag(
@@ -3253,7 +3649,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-swatch", feature = "24-outline"))]
         #[component]
         pub fn Swatch(
@@ -3266,8 +3662,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-receipt-percent", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-receipt-percent",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ReceiptPercent(
             cx: Scope,
@@ -3279,8 +3678,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-uturn-down", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-uturn-down",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowUturnDown(
             cx: Scope,
@@ -3292,7 +3694,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-server", feature = "24-outline"))]
         #[component]
         pub fn Server(
@@ -3305,8 +3707,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-path-rounded-square", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-path-rounded-square",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowPathRoundedSquare(
             cx: Scope,
@@ -3318,8 +3723,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-chat-bubble-left-ellipsis", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-chat-bubble-left-ellipsis",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ChatBubbleLeftEllipsis(
             cx: Scope,
@@ -3331,7 +3739,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-calendar", feature = "24-outline"))]
         #[component]
         pub fn Calendar(
@@ -3344,7 +3752,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-trophy", feature = "24-outline"))]
         #[component]
         pub fn Trophy(
@@ -3357,7 +3765,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-user-minus", feature = "24-outline"))]
         #[component]
         pub fn UserMinus(
@@ -3370,8 +3778,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-long-down", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-long-down",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowLongDown(
             cx: Scope,
@@ -3383,8 +3794,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-puzzle-piece", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-puzzle-piece",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn PuzzlePiece(
             cx: Scope,
@@ -3396,8 +3810,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-building-office", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-building-office",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn BuildingOffice(
             cx: Scope,
@@ -3409,7 +3826,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-briefcase", feature = "24-outline"))]
         #[component]
         pub fn Briefcase(
@@ -3422,8 +3839,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-musical-note", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-musical-note",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn MusicalNote(
             cx: Scope,
@@ -3435,8 +3855,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-rectangle-group", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-rectangle-group",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn RectangleGroup(
             cx: Scope,
@@ -3448,8 +3871,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-document-arrow-up", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-document-arrow-up",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn DocumentArrowUp(
             cx: Scope,
@@ -3461,7 +3887,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-paper-clip", feature = "24-outline"))]
         #[component]
         pub fn PaperClip(
@@ -3474,7 +3900,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-stop", feature = "24-outline"))]
         #[component]
         pub fn Stop(
@@ -3487,8 +3913,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-receipt-refund", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-receipt-refund",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ReceiptRefund(
             cx: Scope,
@@ -3500,7 +3929,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-squares-2x2", feature = "24-outline"))]
         #[component]
         pub fn Squares2X2(
@@ -3513,7 +3942,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-minus", feature = "24-outline"))]
         #[component]
         pub fn Minus(
@@ -3526,8 +3955,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-up-circle", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-up-circle",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowUpCircle(
             cx: Scope,
@@ -3539,8 +3971,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-document-duplicate", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-document-duplicate",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn DocumentDuplicate(
             cx: Scope,
@@ -3552,7 +3987,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-play-circle", feature = "24-outline"))]
         #[component]
         pub fn PlayCircle(
@@ -3566,7 +4001,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-eye-dropper", feature = "24-outline"))]
         #[component]
         pub fn EyeDropper(
@@ -3579,7 +4014,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-cloud", feature = "24-outline"))]
         #[component]
         pub fn Cloud(
@@ -3592,8 +4027,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-chat-bubble-bottom-center", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-chat-bubble-bottom-center",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ChatBubbleBottomCenter(
             cx: Scope,
@@ -3605,8 +4043,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-bars-3-bottom-left", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-bars-3-bottom-left",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn Bars3BottomLeft(
             cx: Scope,
@@ -3618,8 +4059,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-chat-bubble-oval-left", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-chat-bubble-oval-left",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ChatBubbleOvalLeft(
             cx: Scope,
@@ -3631,7 +4075,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-pause", feature = "24-outline"))]
         #[component]
         pub fn Pause(
@@ -3644,8 +4088,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-up-on-square-stack", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-up-on-square-stack",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowUpOnSquareStack(
             cx: Scope,
@@ -3657,8 +4104,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-right-on-rectangle", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-right-on-rectangle",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowRightOnRectangle(
             cx: Scope,
@@ -3670,7 +4120,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-moon", feature = "24-outline"))]
         #[component]
         pub fn Moon(
@@ -3683,7 +4133,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-battery-0", feature = "24-outline"))]
         #[component]
         pub fn Battery0(
@@ -3696,7 +4146,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-bolt-slash", feature = "24-outline"))]
         #[component]
         pub fn BoltSlash(
@@ -3709,7 +4159,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-arrow-left", feature = "24-outline"))]
         #[component]
         pub fn ArrowLeft(
@@ -3722,7 +4172,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-star", feature = "24-outline"))]
         #[component]
         pub fn Star(
@@ -3735,8 +4185,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-chat-bubble-left", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-chat-bubble-left",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ChatBubbleLeft(
             cx: Scope,
@@ -3748,8 +4201,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-chevron-double-left", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-chevron-double-left",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ChevronDoubleLeft(
             cx: Scope,
@@ -3761,7 +4217,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-chart-bar", feature = "24-outline"))]
         #[component]
         pub fn ChartBar(
@@ -3774,8 +4230,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-arrow-uturn-up", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-arrow-uturn-up",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn ArrowUturnUp(
             cx: Scope,
@@ -3787,8 +4246,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-outline-cursor-arrow-ripple", feature = "24-outline"))]
+
+        #[cfg(any(
+            feature = "24-outline-cursor-arrow-ripple",
+            feature = "24-outline"
+        ))]
         #[component]
         pub fn CursorArrowRipple(
             cx: Scope,
@@ -3800,7 +4262,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-outline-folder", feature = "24-outline"))]
         #[component]
         pub fn Folder(
@@ -3813,14 +4275,16 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
     }
 
     pub mod solid {
         #[allow(unused_imports)]
         use leptos::*;
 
-        #[cfg(any(feature = "24-solid-inbox-arrow-down", feature = "24-solid"))]
+        #[cfg(any(
+            feature = "24-solid-inbox-arrow-down",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn InboxArrowDown(
             cx: Scope,
@@ -3833,7 +4297,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-pencil-square", feature = "24-solid"))]
         #[component]
         pub fn PencilSquare(
@@ -3847,7 +4311,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-power", feature = "24-solid"))]
         #[component]
         pub fn Power(
@@ -3860,8 +4324,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-archive-box-x-mark", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-archive-box-x-mark",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArchiveBoxXMark(
             cx: Scope,
@@ -3874,7 +4341,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-gift-top", feature = "24-solid"))]
         #[component]
         pub fn GiftTop(
@@ -3888,7 +4355,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-document-minus", feature = "24-solid"))]
         #[component]
         pub fn DocumentMinus(
@@ -3902,8 +4369,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-top-right-on-square", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-top-right-on-square",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowTopRightOnSquare(
             cx: Scope,
@@ -3915,7 +4385,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-bell", feature = "24-solid"))]
         #[component]
         pub fn Bell(
@@ -3928,7 +4398,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-ticket", feature = "24-solid"))]
         #[component]
         pub fn Ticket(
@@ -3941,7 +4411,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-cog", feature = "24-solid"))]
         #[component]
         pub fn Cog(
@@ -3955,7 +4425,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-arrow-long-up", feature = "24-solid"))]
         #[component]
         pub fn ArrowLongUp(
@@ -3968,7 +4438,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-variable", feature = "24-solid"))]
         #[component]
         pub fn Variable(
@@ -3981,8 +4451,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-document-arrow-down", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-document-arrow-down",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn DocumentArrowDown(
             cx: Scope,
@@ -3995,7 +4468,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-signal-slash", feature = "24-solid"))]
         #[component]
         pub fn SignalSlash(
@@ -4008,8 +4481,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-code-bracket-square", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-code-bracket-square",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn CodeBracketSquare(
             cx: Scope,
@@ -4021,7 +4497,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-arrow-right", feature = "24-solid"))]
         #[component]
         pub fn ArrowRight(
@@ -4034,7 +4510,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-credit-card", feature = "24-solid"))]
         #[component]
         pub fn CreditCard(
@@ -4048,7 +4524,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-x-mark", feature = "24-solid"))]
         #[component]
         pub fn XMark(
@@ -4061,8 +4537,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-building-storefront", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-building-storefront",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn BuildingStorefront(
             cx: Scope,
@@ -4075,7 +4554,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-light-bulb", feature = "24-solid"))]
         #[component]
         pub fn LightBulb(
@@ -4089,7 +4568,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-bookmark-square", feature = "24-solid"))]
         #[component]
         pub fn BookmarkSquare(
@@ -4102,7 +4581,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-scissors", feature = "24-solid"))]
         #[component]
         pub fn Scissors(
@@ -4116,7 +4595,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-bars-3", feature = "24-solid"))]
         #[component]
         pub fn Bars3(
@@ -4129,7 +4608,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-table-cells", feature = "24-solid"))]
         #[component]
         pub fn TableCells(
@@ -4142,8 +4621,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-square-3-stack-3d", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-square-3-stack-3d",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn Square3Stack3D(
             cx: Scope,
@@ -4157,7 +4639,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-bars-2", feature = "24-solid"))]
         #[component]
         pub fn Bars2(
@@ -4170,7 +4652,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-arrow-up-left", feature = "24-solid"))]
         #[component]
         pub fn ArrowUpLeft(
@@ -4183,7 +4665,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-minus-circle", feature = "24-solid"))]
         #[component]
         pub fn MinusCircle(
@@ -4196,8 +4678,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-left-circle", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-left-circle",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowLeftCircle(
             cx: Scope,
@@ -4209,8 +4694,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-magnifying-glass-circle", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-magnifying-glass-circle",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn MagnifyingGlassCircle(
             cx: Scope,
@@ -4223,7 +4711,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-shopping-cart", feature = "24-solid"))]
         #[component]
         pub fn ShoppingCart(
@@ -4236,7 +4724,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-rocket-launch", feature = "24-solid"))]
         #[component]
         pub fn RocketLaunch(
@@ -4250,7 +4738,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-photo", feature = "24-solid"))]
         #[component]
         pub fn Photo(
@@ -4263,7 +4751,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-link", feature = "24-solid"))]
         #[component]
         pub fn Link(
@@ -4276,7 +4764,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-device-tablet", feature = "24-solid"))]
         #[component]
         pub fn DeviceTablet(
@@ -4290,7 +4778,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-shield-check", feature = "24-solid"))]
         #[component]
         pub fn ShieldCheck(
@@ -4303,8 +4791,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-presentation-chart-line", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-presentation-chart-line",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn PresentationChartLine(
             cx: Scope,
@@ -4316,8 +4807,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-long-right", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-long-right",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowLongRight(
             cx: Scope,
@@ -4329,7 +4823,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-film", feature = "24-solid"))]
         #[component]
         pub fn Film(
@@ -4342,8 +4836,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-clipboard-document-check", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-clipboard-document-check",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ClipboardDocumentCheck(
             cx: Scope,
@@ -4356,7 +4853,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-window", feature = "24-solid"))]
         #[component]
         pub fn Window(
@@ -4369,7 +4866,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-cog-8-tooth", feature = "24-solid"))]
         #[component]
         pub fn Cog8Tooth(
@@ -4382,7 +4879,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-arrow-up-right", feature = "24-solid"))]
         #[component]
         pub fn ArrowUpRight(
@@ -4395,7 +4892,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-bug-ant", feature = "24-solid"))]
         #[component]
         pub fn BugAnt(
@@ -4408,7 +4905,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-bars-arrow-up", feature = "24-solid"))]
         #[component]
         pub fn BarsArrowUp(
@@ -4421,7 +4918,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-bookmark-slash", feature = "24-solid"))]
         #[component]
         pub fn BookmarkSlash(
@@ -4434,7 +4931,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-calculator", feature = "24-solid"))]
         #[component]
         pub fn Calculator(
@@ -4447,7 +4944,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-beaker", feature = "24-solid"))]
         #[component]
         pub fn Beaker(
@@ -4460,7 +4957,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-finger-print", feature = "24-solid"))]
         #[component]
         pub fn FingerPrint(
@@ -4473,7 +4970,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-speaker-x-mark", feature = "24-solid"))]
         #[component]
         pub fn SpeakerXMark(
@@ -4486,8 +4983,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-down-right", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-down-right",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowDownRight(
             cx: Scope,
@@ -4499,7 +4999,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-megaphone", feature = "24-solid"))]
         #[component]
         pub fn Megaphone(
@@ -4512,7 +5012,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-cpu-chip", feature = "24-solid"))]
         #[component]
         pub fn CpuChip(
@@ -4526,8 +5026,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-document-chart-bar", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-document-chart-bar",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn DocumentChartBar(
             cx: Scope,
@@ -4540,7 +5043,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-academic-cap", feature = "24-solid"))]
         #[component]
         pub fn AcademicCap(
@@ -4555,8 +5058,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-exclamation-triangle", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-exclamation-triangle",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ExclamationTriangle(
             cx: Scope,
@@ -4568,7 +5074,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-face-smile", feature = "24-solid"))]
         #[component]
         pub fn FaceSmile(
@@ -4581,7 +5087,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-stop-circle", feature = "24-solid"))]
         #[component]
         pub fn StopCircle(
@@ -4594,7 +5100,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-chevron-up-down", feature = "24-solid"))]
         #[component]
         pub fn ChevronUpDown(
@@ -4607,7 +5113,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-paint-brush", feature = "24-solid"))]
         #[component]
         pub fn PaintBrush(
@@ -4620,7 +5126,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-envelope", feature = "24-solid"))]
         #[component]
         pub fn Envelope(
@@ -4634,8 +5140,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-magnifying-glass", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-magnifying-glass",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn MagnifyingGlass(
             cx: Scope,
@@ -4647,7 +5156,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-backward", feature = "24-solid"))]
         #[component]
         pub fn Backward(
@@ -4660,8 +5169,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-uturn-right", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-uturn-right",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowUturnRight(
             cx: Scope,
@@ -4673,7 +5185,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-sun", feature = "24-solid"))]
         #[component]
         pub fn Sun(
@@ -4686,8 +5198,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-down-on-square", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-down-on-square",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowDownOnSquare(
             cx: Scope,
@@ -4699,7 +5214,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-bookmark", feature = "24-solid"))]
         #[component]
         pub fn Bookmark(
@@ -4712,7 +5227,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-chevron-up", feature = "24-solid"))]
         #[component]
         pub fn ChevronUp(
@@ -4725,8 +5240,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-exclamation-circle", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-exclamation-circle",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ExclamationCircle(
             cx: Scope,
@@ -4738,7 +5256,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-document-text", feature = "24-solid"))]
         #[component]
         pub fn DocumentText(
@@ -4752,7 +5270,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-heart", feature = "24-solid"))]
         #[component]
         pub fn Heart(
@@ -4765,7 +5283,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-cake", feature = "24-solid"))]
         #[component]
         pub fn Cake(
@@ -4778,7 +5296,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-home", feature = "24-solid"))]
         #[component]
         pub fn Home(
@@ -4792,7 +5310,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-gif", feature = "24-solid"))]
         #[component]
         pub fn Gif(
@@ -4805,7 +5323,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-play", feature = "24-solid"))]
         #[component]
         pub fn Play(
@@ -4818,7 +5336,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-chevron-right", feature = "24-solid"))]
         #[component]
         pub fn ChevronRight(
@@ -4831,8 +5349,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-presentation-chart-bar", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-presentation-chart-bar",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn PresentationChartBar(
             cx: Scope,
@@ -4844,8 +5365,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-phone-arrow-up-right", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-phone-arrow-up-right",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn PhoneArrowUpRight(
             cx: Scope,
@@ -4858,7 +5382,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-bell-snooze", feature = "24-solid"))]
         #[component]
         pub fn BellSnooze(
@@ -4871,7 +5395,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-tv", feature = "24-solid"))]
         #[component]
         pub fn Tv(
@@ -4885,7 +5409,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-currency-dollar", feature = "24-solid"))]
         #[component]
         pub fn CurrencyDollar(
@@ -4899,7 +5423,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-currency-yen", feature = "24-solid"))]
         #[component]
         pub fn CurrencyYen(
@@ -4912,7 +5436,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-envelope-open", feature = "24-solid"))]
         #[component]
         pub fn EnvelopeOpen(
@@ -4926,8 +5450,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-chevron-double-right", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-chevron-double-right",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ChevronDoubleRight(
             cx: Scope,
@@ -4939,7 +5466,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-folder-minus", feature = "24-solid"))]
         #[component]
         pub fn FolderMinus(
@@ -4952,7 +5479,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-user-plus", feature = "24-solid"))]
         #[component]
         pub fn UserPlus(
@@ -4965,7 +5492,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-trash", feature = "24-solid"))]
         #[component]
         pub fn Trash(
@@ -4978,8 +5505,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-device-phone-mobile", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-device-phone-mobile",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn DevicePhoneMobile(
             cx: Scope,
@@ -4992,7 +5522,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-hashtag", feature = "24-solid"))]
         #[component]
         pub fn Hashtag(
@@ -5005,7 +5535,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-bars-4", feature = "24-solid"))]
         #[component]
         pub fn Bars4(
@@ -5018,8 +5548,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-chat-bubble-bottom-center-text", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-chat-bubble-bottom-center-text",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ChatBubbleBottomCenterText(
             cx: Scope,
@@ -5031,8 +5564,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-adjustments-vertical", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-adjustments-vertical",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn AdjustmentsVertical(
             cx: Scope,
@@ -5044,8 +5580,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-globe-europe-africa", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-globe-europe-africa",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn GlobeEuropeAfrica(
             cx: Scope,
@@ -5057,8 +5596,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-chat-bubble-oval-left-ellipsis", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-chat-bubble-oval-left-ellipsis",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ChatBubbleOvalLeftEllipsis(
             cx: Scope,
@@ -5070,8 +5612,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-small-down", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-small-down",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowSmallDown(
             cx: Scope,
@@ -5083,8 +5628,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-clipboard-document", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-clipboard-document",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ClipboardDocument(
             cx: Scope,
@@ -5098,7 +5646,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-phone", feature = "24-solid"))]
         #[component]
         pub fn Phone(
@@ -5111,7 +5659,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-scale", feature = "24-solid"))]
         #[component]
         pub fn Scale(
@@ -5124,7 +5672,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-arrow-up-tray", feature = "24-solid"))]
         #[component]
         pub fn ArrowUpTray(
@@ -5137,7 +5685,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-chevron-left", feature = "24-solid"))]
         #[component]
         pub fn ChevronLeft(
@@ -5150,7 +5698,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-check-badge", feature = "24-solid"))]
         #[component]
         pub fn CheckBadge(
@@ -5163,7 +5711,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-cube", feature = "24-solid"))]
         #[component]
         pub fn Cube(
@@ -5176,8 +5724,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-viewfinder-circle", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-viewfinder-circle",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ViewfinderCircle(
             cx: Scope,
@@ -5189,8 +5740,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-ellipsis-horizontal", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-ellipsis-horizontal",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn EllipsisHorizontal(
             cx: Scope,
@@ -5202,7 +5756,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-document-check", feature = "24-solid"))]
         #[component]
         pub fn DocumentCheck(
@@ -5216,7 +5770,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-play-pause", feature = "24-solid"))]
         #[component]
         pub fn PlayPause(
@@ -5229,7 +5783,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-bars-arrow-down", feature = "24-solid"))]
         #[component]
         pub fn BarsArrowDown(
@@ -5242,8 +5796,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-computer-desktop", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-computer-desktop",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ComputerDesktop(
             cx: Scope,
@@ -5255,7 +5812,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-home-modern", feature = "24-solid"))]
         #[component]
         pub fn HomeModern(
@@ -5269,8 +5826,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-currency-bangladeshi", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-currency-bangladeshi",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn CurrencyBangladeshi(
             cx: Scope,
@@ -5282,7 +5842,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-shopping-bag", feature = "24-solid"))]
         #[component]
         pub fn ShoppingBag(
@@ -5295,7 +5855,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-globe-alt", feature = "24-solid"))]
         #[component]
         pub fn GlobeAlt(
@@ -5308,8 +5868,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-ellipsis-vertical", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-ellipsis-vertical",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn EllipsisVertical(
             cx: Scope,
@@ -5321,7 +5884,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-inbox-stack", feature = "24-solid"))]
         #[component]
         pub fn InboxStack(
@@ -5335,7 +5898,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-hand-raised", feature = "24-solid"))]
         #[component]
         pub fn HandRaised(
@@ -5348,8 +5911,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-question-mark-circle", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-question-mark-circle",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn QuestionMarkCircle(
             cx: Scope,
@@ -5361,7 +5927,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-document-plus", feature = "24-solid"))]
         #[component]
         pub fn DocumentPlus(
@@ -5375,7 +5941,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-fire", feature = "24-solid"))]
         #[component]
         pub fn Fire(
@@ -5388,8 +5954,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-ellipsis-horizontal-circle", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-ellipsis-horizontal-circle",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn EllipsisHorizontalCircle(
             cx: Scope,
@@ -5401,8 +5970,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-phone-arrow-down-left", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-phone-arrow-down-left",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn PhoneArrowDownLeft(
             cx: Scope,
@@ -5415,8 +5987,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-magnifying-glass-plus", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-magnifying-glass-plus",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn MagnifyingGlassPlus(
             cx: Scope,
@@ -5428,7 +6003,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-identification", feature = "24-solid"))]
         #[component]
         pub fn Identification(
@@ -5441,7 +6016,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-bell-slash", feature = "24-solid"))]
         #[component]
         pub fn BellSlash(
@@ -5455,7 +6030,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-key", feature = "24-solid"))]
         #[component]
         pub fn Key(
@@ -5468,8 +6043,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-left-on-rectangle", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-left-on-rectangle",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowLeftOnRectangle(
             cx: Scope,
@@ -5481,8 +6059,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-adjustments-horizontal", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-adjustments-horizontal",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn AdjustmentsHorizontal(
             cx: Scope,
@@ -5494,7 +6075,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-rectangle-stack", feature = "24-solid"))]
         #[component]
         pub fn RectangleStack(
@@ -5507,8 +6088,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-down-on-square-stack", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-down-on-square-stack",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowDownOnSquareStack(
             cx: Scope,
@@ -5521,7 +6105,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-globe-americas", feature = "24-solid"))]
         #[component]
         pub fn GlobeAmericas(
@@ -5534,8 +6118,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-clipboard-document-list", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-clipboard-document-list",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ClipboardDocumentList(
             cx: Scope,
@@ -5548,8 +6135,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-building-office-2", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-building-office-2",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn BuildingOffice2(
             cx: Scope,
@@ -5561,8 +6151,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-up-on-square", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-up-on-square",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowUpOnSquare(
             cx: Scope,
@@ -5574,7 +6167,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-sparkles", feature = "24-solid"))]
         #[component]
         pub fn Sparkles(
@@ -5587,7 +6180,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-backspace", feature = "24-solid"))]
         #[component]
         pub fn Backspace(
@@ -5600,7 +6193,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-currency-rupee", feature = "24-solid"))]
         #[component]
         pub fn CurrencyRupee(
@@ -5613,7 +6206,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-lifebuoy", feature = "24-solid"))]
         #[component]
         pub fn Lifebuoy(
@@ -5626,8 +6219,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-bars-3-bottom-right", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-bars-3-bottom-right",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn Bars3BottomRight(
             cx: Scope,
@@ -5639,8 +6235,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-video-camera-slash", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-video-camera-slash",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn VideoCameraSlash(
             cx: Scope,
@@ -5652,7 +6251,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-hand-thumb-up", feature = "24-solid"))]
         #[component]
         pub fn HandThumbUp(
@@ -5665,7 +6264,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-folder-open", feature = "24-solid"))]
         #[component]
         pub fn FolderOpen(
@@ -5678,7 +6277,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-hand-thumb-down", feature = "24-solid"))]
         #[component]
         pub fn HandThumbDown(
@@ -5691,8 +6290,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-wrench-screwdriver", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-wrench-screwdriver",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn WrenchScrewdriver(
             cx: Scope,
@@ -5706,8 +6308,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-magnifying-glass-minus", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-magnifying-glass-minus",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn MagnifyingGlassMinus(
             cx: Scope,
@@ -5719,7 +6324,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-map", feature = "24-solid"))]
         #[component]
         pub fn Map(
@@ -5732,8 +6337,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-folder-arrow-down", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-folder-arrow-down",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn FolderArrowDown(
             cx: Scope,
@@ -5745,7 +6353,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-rss", feature = "24-solid"))]
         #[component]
         pub fn Rss(
@@ -5758,7 +6366,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-phone-x-mark", feature = "24-solid"))]
         #[component]
         pub fn PhoneXMark(
@@ -5771,7 +6379,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-user-group", feature = "24-solid"))]
         #[component]
         pub fn UserGroup(
@@ -5785,7 +6393,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-document", feature = "24-solid"))]
         #[component]
         pub fn Document(
@@ -5799,7 +6407,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-arrow-long-left", feature = "24-solid"))]
         #[component]
         pub fn ArrowLongLeft(
@@ -5812,8 +6420,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-down-circle", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-down-circle",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowDownCircle(
             cx: Scope,
@@ -5825,7 +6436,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-cog-6-tooth", feature = "24-solid"))]
         #[component]
         pub fn Cog6Tooth(
@@ -5838,7 +6449,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-user-circle", feature = "24-solid"))]
         #[component]
         pub fn UserCircle(
@@ -5851,7 +6462,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-at-symbol", feature = "24-solid"))]
         #[component]
         pub fn AtSymbol(
@@ -5864,7 +6475,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-wrench", feature = "24-solid"))]
         #[component]
         pub fn Wrench(
@@ -5877,8 +6488,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-trending-up", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-trending-up",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowTrendingUp(
             cx: Scope,
@@ -5890,7 +6504,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-list-bullet", feature = "24-solid"))]
         #[component]
         pub fn ListBullet(
@@ -5903,7 +6517,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-calendar-days", feature = "24-solid"))]
         #[component]
         pub fn CalendarDays(
@@ -5917,8 +6531,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrows-pointing-in", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrows-pointing-in",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowsPointingIn(
             cx: Scope,
@@ -5930,7 +6547,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-arrow-path", feature = "24-solid"))]
         #[component]
         pub fn ArrowPath(
@@ -5943,7 +6560,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-x-circle", feature = "24-solid"))]
         #[component]
         pub fn XCircle(
@@ -5956,8 +6573,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-right-circle", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-right-circle",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowRightCircle(
             cx: Scope,
@@ -5969,7 +6589,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-minus-small", feature = "24-solid"))]
         #[component]
         pub fn MinusSmall(
@@ -5982,8 +6602,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-cube-transparent", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-cube-transparent",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn CubeTransparent(
             cx: Scope,
@@ -5995,7 +6618,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-eye", feature = "24-solid"))]
         #[component]
         pub fn Eye(
@@ -6009,7 +6632,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-plus-circle", feature = "24-solid"))]
         #[component]
         pub fn PlusCircle(
@@ -6022,8 +6645,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-chat-bubble-left-right", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-chat-bubble-left-right",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ChatBubbleLeftRight(
             cx: Scope,
@@ -6036,7 +6662,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-arrow-up", feature = "24-solid"))]
         #[component]
         pub fn ArrowUp(
@@ -6049,8 +6675,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-chart-bar-square", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-chart-bar-square",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ChartBarSquare(
             cx: Scope,
@@ -6062,7 +6691,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-qr-code", feature = "24-solid"))]
         #[component]
         pub fn QrCode(
@@ -6075,8 +6704,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-chevron-double-down", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-chevron-double-down",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ChevronDoubleDown(
             cx: Scope,
@@ -6088,7 +6720,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-map-pin", feature = "24-solid"))]
         #[component]
         pub fn MapPin(
@@ -6101,7 +6733,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-battery-100", feature = "24-solid"))]
         #[component]
         pub fn Battery100(
@@ -6114,7 +6746,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-paper-airplane", feature = "24-solid"))]
         #[component]
         pub fn PaperAirplane(
@@ -6127,7 +6759,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-arrow-down-tray", feature = "24-solid"))]
         #[component]
         pub fn ArrowDownTray(
@@ -6140,7 +6772,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-queue-list", feature = "24-solid"))]
         #[component]
         pub fn QueueList(
@@ -6153,8 +6785,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-uturn-left", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-uturn-left",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowUturnLeft(
             cx: Scope,
@@ -6166,8 +6801,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-trending-down", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-trending-down",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowTrendingDown(
             cx: Scope,
@@ -6179,7 +6817,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-code-bracket", feature = "24-solid"))]
         #[component]
         pub fn CodeBracket(
@@ -6192,7 +6830,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-pencil", feature = "24-solid"))]
         #[component]
         pub fn Pencil(
@@ -6205,7 +6843,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-clock", feature = "24-solid"))]
         #[component]
         pub fn Clock(
@@ -6218,7 +6856,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-clipboard", feature = "24-solid"))]
         #[component]
         pub fn Clipboard(
@@ -6231,7 +6869,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-plus-small", feature = "24-solid"))]
         #[component]
         pub fn PlusSmall(
@@ -6244,7 +6882,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-pause-circle", feature = "24-solid"))]
         #[component]
         pub fn PauseCircle(
@@ -6257,7 +6895,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-camera", feature = "24-solid"))]
         #[component]
         pub fn Camera(
@@ -6271,7 +6909,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-currency-euro", feature = "24-solid"))]
         #[component]
         pub fn CurrencyEuro(
@@ -6284,7 +6922,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-speaker-wave", feature = "24-solid"))]
         #[component]
         pub fn SpeakerWave(
@@ -6298,7 +6936,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-arrows-up-down", feature = "24-solid"))]
         #[component]
         pub fn ArrowsUpDown(
@@ -6311,7 +6949,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-banknotes", feature = "24-solid"))]
         #[component]
         pub fn Banknotes(
@@ -6326,8 +6964,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-chevron-double-up", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-chevron-double-up",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ChevronDoubleUp(
             cx: Scope,
@@ -6339,7 +6980,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-squares-plus", feature = "24-solid"))]
         #[component]
         pub fn SquaresPlus(
@@ -6352,7 +6993,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-view-columns", feature = "24-solid"))]
         #[component]
         pub fn ViewColumns(
@@ -6365,7 +7006,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-newspaper", feature = "24-solid"))]
         #[component]
         pub fn Newspaper(
@@ -6379,7 +7020,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-user", feature = "24-solid"))]
         #[component]
         pub fn User(
@@ -6392,7 +7033,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-inbox", feature = "24-solid"))]
         #[component]
         pub fn Inbox(
@@ -6405,7 +7046,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-microphone", feature = "24-solid"))]
         #[component]
         pub fn Microphone(
@@ -6419,7 +7060,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-arrow-down-left", feature = "24-solid"))]
         #[component]
         pub fn ArrowDownLeft(
@@ -6432,7 +7073,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-arrow-small-up", feature = "24-solid"))]
         #[component]
         pub fn ArrowSmallUp(
@@ -6445,7 +7086,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-book-open", feature = "24-solid"))]
         #[component]
         pub fn BookOpen(
@@ -6458,7 +7099,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-users", feature = "24-solid"))]
         #[component]
         pub fn Users(
@@ -6471,7 +7112,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-chart-pie", feature = "24-solid"))]
         #[component]
         pub fn ChartPie(
@@ -6485,7 +7126,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-command-line", feature = "24-solid"))]
         #[component]
         pub fn CommandLine(
@@ -6498,8 +7139,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-building-library", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-building-library",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn BuildingLibrary(
             cx: Scope,
@@ -6513,7 +7157,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-cloud-arrow-up", feature = "24-solid"))]
         #[component]
         pub fn CloudArrowUp(
@@ -6526,7 +7170,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-wallet", feature = "24-solid"))]
         #[component]
         pub fn Wallet(
@@ -6539,7 +7183,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-lock-closed", feature = "24-solid"))]
         #[component]
         pub fn LockClosed(
@@ -6552,8 +7196,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-information-circle", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-information-circle",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn InformationCircle(
             cx: Scope,
@@ -6565,7 +7212,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-funnel", feature = "24-solid"))]
         #[component]
         pub fn Funnel(
@@ -6578,8 +7225,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-cursor-arrow-rays", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-cursor-arrow-rays",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn CursorArrowRays(
             cx: Scope,
@@ -6591,7 +7241,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-check-circle", feature = "24-solid"))]
         #[component]
         pub fn CheckCircle(
@@ -6604,8 +7254,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrows-pointing-out", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrows-pointing-out",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowsPointingOut(
             cx: Scope,
@@ -6617,7 +7270,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-chevron-down", feature = "24-solid"))]
         #[component]
         pub fn ChevronDown(
@@ -6630,8 +7283,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-archive-box-arrow-down", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-archive-box-arrow-down",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArchiveBoxArrowDown(
             cx: Scope,
@@ -6644,7 +7300,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-share", feature = "24-solid"))]
         #[component]
         pub fn Share(
@@ -6657,8 +7313,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-document-magnifying-glass", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-document-magnifying-glass",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn DocumentMagnifyingGlass(
             cx: Scope,
@@ -6672,7 +7331,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-bell-alert", feature = "24-solid"))]
         #[component]
         pub fn BellAlert(
@@ -6686,7 +7345,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-folder-plus", feature = "24-solid"))]
         #[component]
         pub fn FolderPlus(
@@ -6699,7 +7358,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-wifi", feature = "24-solid"))]
         #[component]
         pub fn Wifi(
@@ -6712,7 +7371,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-eye-slash", feature = "24-solid"))]
         #[component]
         pub fn EyeSlash(
@@ -6727,7 +7386,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-plus", feature = "24-solid"))]
         #[component]
         pub fn Plus(
@@ -6740,8 +7399,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-globe-asia-australia", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-globe-asia-australia",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn GlobeAsiaAustralia(
             cx: Scope,
@@ -6754,7 +7416,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-language", feature = "24-solid"))]
         #[component]
         pub fn Language(
@@ -6767,8 +7429,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-small-left", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-small-left",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowSmallLeft(
             cx: Scope,
@@ -6780,7 +7445,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-battery-50", feature = "24-solid"))]
         #[component]
         pub fn Battery50(
@@ -6794,7 +7459,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-printer", feature = "24-solid"))]
         #[component]
         pub fn Printer(
@@ -6807,7 +7472,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-gift", feature = "24-solid"))]
         #[component]
         pub fn Gift(
@@ -6820,7 +7485,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-forward", feature = "24-solid"))]
         #[component]
         pub fn Forward(
@@ -6833,8 +7498,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-small-right", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-small-right",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowSmallRight(
             cx: Scope,
@@ -6846,7 +7514,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-arrow-down", feature = "24-solid"))]
         #[component]
         pub fn ArrowDown(
@@ -6859,7 +7527,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-radio", feature = "24-solid"))]
         #[component]
         pub fn Radio(
@@ -6872,7 +7540,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-flag", feature = "24-solid"))]
         #[component]
         pub fn Flag(
@@ -6885,7 +7553,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-video-camera", feature = "24-solid"))]
         #[component]
         pub fn VideoCamera(
@@ -6898,7 +7566,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-face-frown", feature = "24-solid"))]
         #[component]
         pub fn FaceFrown(
@@ -6911,7 +7579,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-signal", feature = "24-solid"))]
         #[component]
         pub fn Signal(
@@ -6924,8 +7592,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-cloud-arrow-down", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-cloud-arrow-down",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn CloudArrowDown(
             cx: Scope,
@@ -6937,7 +7608,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-circle-stack", feature = "24-solid"))]
         #[component]
         pub fn CircleStack(
@@ -6953,7 +7624,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-currency-pound", feature = "24-solid"))]
         #[component]
         pub fn CurrencyPound(
@@ -6966,7 +7637,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-no-symbol", feature = "24-solid"))]
         #[component]
         pub fn NoSymbol(
@@ -6979,8 +7650,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrows-right-left", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrows-right-left",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowsRightLeft(
             cx: Scope,
@@ -6992,7 +7666,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-lock-open", feature = "24-solid"))]
         #[component]
         pub fn LockOpen(
@@ -7005,7 +7679,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-bolt", feature = "24-solid"))]
         #[component]
         pub fn Bolt(
@@ -7018,7 +7692,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-truck", feature = "24-solid"))]
         #[component]
         pub fn Truck(
@@ -7033,7 +7707,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-server-stack", feature = "24-solid"))]
         #[component]
         pub fn ServerStack(
@@ -7047,8 +7721,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-bars-3-center-left", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-bars-3-center-left",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn Bars3CenterLeft(
             cx: Scope,
@@ -7060,7 +7737,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-check", feature = "24-solid"))]
         #[component]
         pub fn Check(
@@ -7073,7 +7750,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-square-2-stack", feature = "24-solid"))]
         #[component]
         pub fn Square2Stack(
@@ -7087,7 +7764,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-archive-box", feature = "24-solid"))]
         #[component]
         pub fn ArchiveBox(
@@ -7101,8 +7778,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-shield-exclamation", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-shield-exclamation",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ShieldExclamation(
             cx: Scope,
@@ -7114,7 +7794,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-tag", feature = "24-solid"))]
         #[component]
         pub fn Tag(
@@ -7127,7 +7807,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-swatch", feature = "24-solid"))]
         #[component]
         pub fn Swatch(
@@ -7141,7 +7821,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-receipt-percent", feature = "24-solid"))]
         #[component]
         pub fn ReceiptPercent(
@@ -7154,8 +7834,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-uturn-down", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-uturn-down",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowUturnDown(
             cx: Scope,
@@ -7167,7 +7850,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-server", feature = "24-solid"))]
         #[component]
         pub fn Server(
@@ -7181,8 +7864,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-path-rounded-square", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-path-rounded-square",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowPathRoundedSquare(
             cx: Scope,
@@ -7194,8 +7880,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-chat-bubble-left-ellipsis", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-chat-bubble-left-ellipsis",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ChatBubbleLeftEllipsis(
             cx: Scope,
@@ -7207,7 +7896,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-calendar", feature = "24-solid"))]
         #[component]
         pub fn Calendar(
@@ -7220,7 +7909,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-trophy", feature = "24-solid"))]
         #[component]
         pub fn Trophy(
@@ -7233,7 +7922,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-user-minus", feature = "24-solid"))]
         #[component]
         pub fn UserMinus(
@@ -7246,7 +7935,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-arrow-long-down", feature = "24-solid"))]
         #[component]
         pub fn ArrowLongDown(
@@ -7259,7 +7948,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-puzzle-piece", feature = "24-solid"))]
         #[component]
         pub fn PuzzlePiece(
@@ -7272,7 +7961,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-building-office", feature = "24-solid"))]
         #[component]
         pub fn BuildingOffice(
@@ -7285,7 +7974,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-briefcase", feature = "24-solid"))]
         #[component]
         pub fn Briefcase(
@@ -7299,7 +7988,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-musical-note", feature = "24-solid"))]
         #[component]
         pub fn MusicalNote(
@@ -7312,7 +8001,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-rectangle-group", feature = "24-solid"))]
         #[component]
         pub fn RectangleGroup(
@@ -7325,8 +8014,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-document-arrow-up", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-document-arrow-up",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn DocumentArrowUp(
             cx: Scope,
@@ -7339,7 +8031,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-paper-clip", feature = "24-solid"))]
         #[component]
         pub fn PaperClip(
@@ -7352,7 +8044,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-stop", feature = "24-solid"))]
         #[component]
         pub fn Stop(
@@ -7365,7 +8057,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-receipt-refund", feature = "24-solid"))]
         #[component]
         pub fn ReceiptRefund(
@@ -7378,7 +8070,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-squares-2x2", feature = "24-solid"))]
         #[component]
         pub fn Squares2X2(
@@ -7391,7 +8083,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-minus", feature = "24-solid"))]
         #[component]
         pub fn Minus(
@@ -7404,7 +8096,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-arrow-up-circle", feature = "24-solid"))]
         #[component]
         pub fn ArrowUpCircle(
@@ -7417,8 +8109,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-document-duplicate", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-document-duplicate",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn DocumentDuplicate(
             cx: Scope,
@@ -7431,7 +8126,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-play-circle", feature = "24-solid"))]
         #[component]
         pub fn PlayCircle(
@@ -7444,7 +8139,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-eye-dropper", feature = "24-solid"))]
         #[component]
         pub fn EyeDropper(
@@ -7457,7 +8152,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-cloud", feature = "24-solid"))]
         #[component]
         pub fn Cloud(
@@ -7470,8 +8165,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-chat-bubble-bottom-center", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-chat-bubble-bottom-center",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ChatBubbleBottomCenter(
             cx: Scope,
@@ -7483,8 +8181,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-bars-3-bottom-left", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-bars-3-bottom-left",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn Bars3BottomLeft(
             cx: Scope,
@@ -7496,8 +8197,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-chat-bubble-oval-left", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-chat-bubble-oval-left",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ChatBubbleOvalLeft(
             cx: Scope,
@@ -7509,7 +8213,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-pause", feature = "24-solid"))]
         #[component]
         pub fn Pause(
@@ -7522,8 +8226,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-up-on-square-stack", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-up-on-square-stack",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowUpOnSquareStack(
             cx: Scope,
@@ -7536,8 +8243,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-arrow-right-on-rectangle", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-arrow-right-on-rectangle",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ArrowRightOnRectangle(
             cx: Scope,
@@ -7549,7 +8259,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-moon", feature = "24-solid"))]
         #[component]
         pub fn Moon(
@@ -7562,7 +8272,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-battery-0", feature = "24-solid"))]
         #[component]
         pub fn Battery0(
@@ -7575,7 +8285,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-bolt-slash", feature = "24-solid"))]
         #[component]
         pub fn BoltSlash(
@@ -7588,7 +8298,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-arrow-left", feature = "24-solid"))]
         #[component]
         pub fn ArrowLeft(
@@ -7601,7 +8311,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-star", feature = "24-solid"))]
         #[component]
         pub fn Star(
@@ -7614,8 +8324,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-chat-bubble-left", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-chat-bubble-left",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ChatBubbleLeft(
             cx: Scope,
@@ -7627,8 +8340,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-chevron-double-left", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-chevron-double-left",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn ChevronDoubleLeft(
             cx: Scope,
@@ -7640,7 +8356,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-chart-bar", feature = "24-solid"))]
         #[component]
         pub fn ChartBar(
@@ -7653,7 +8369,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-arrow-uturn-up", feature = "24-solid"))]
         #[component]
         pub fn ArrowUturnUp(
@@ -7666,8 +8382,11 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "24-solid-cursor-arrow-ripple", feature = "24-solid"))]
+
+        #[cfg(any(
+            feature = "24-solid-cursor-arrow-ripple",
+            feature = "24-solid"
+        ))]
         #[component]
         pub fn CursorArrowRipple(
             cx: Scope,
@@ -7679,7 +8398,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "24-solid-folder", feature = "24-solid"))]
         #[component]
         pub fn Folder(
@@ -7692,9 +8411,7 @@ pub mod size_24 {
                 </svg>
             }
         }
-        
     }
-
 }
 
 pub mod size_20 {
@@ -7705,7 +8422,10 @@ pub mod size_20 {
         #[allow(unused_imports)]
         use leptos::*;
 
-        #[cfg(any(feature = "20-solid-inbox-arrow-down", feature = "20-solid"))]
+        #[cfg(any(
+            feature = "20-solid-inbox-arrow-down",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn InboxArrowDown(
             cx: Scope,
@@ -7718,7 +8438,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-pencil-square", feature = "20-solid"))]
         #[component]
         pub fn PencilSquare(
@@ -7732,7 +8452,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-power", feature = "20-solid"))]
         #[component]
         pub fn Power(
@@ -7745,8 +8465,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-archive-box-x-mark", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-archive-box-x-mark",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArchiveBoxXMark(
             cx: Scope,
@@ -7759,7 +8482,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-gift-top", feature = "20-solid"))]
         #[component]
         pub fn GiftTop(
@@ -7772,7 +8495,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-document-minus", feature = "20-solid"))]
         #[component]
         pub fn DocumentMinus(
@@ -7785,8 +8508,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-top-right-on-square", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-top-right-on-square",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowTopRightOnSquare(
             cx: Scope,
@@ -7799,7 +8525,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-bell", feature = "20-solid"))]
         #[component]
         pub fn Bell(
@@ -7812,7 +8538,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-ticket", feature = "20-solid"))]
         #[component]
         pub fn Ticket(
@@ -7825,7 +8551,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-cog", feature = "20-solid"))]
         #[component]
         pub fn Cog(
@@ -7839,7 +8565,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-arrow-long-up", feature = "20-solid"))]
         #[component]
         pub fn ArrowLongUp(
@@ -7852,7 +8578,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-variable", feature = "20-solid"))]
         #[component]
         pub fn Variable(
@@ -7865,8 +8591,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-document-arrow-down", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-document-arrow-down",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn DocumentArrowDown(
             cx: Scope,
@@ -7878,7 +8607,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-signal-slash", feature = "20-solid"))]
         #[component]
         pub fn SignalSlash(
@@ -7891,8 +8620,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-code-bracket-square", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-code-bracket-square",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn CodeBracketSquare(
             cx: Scope,
@@ -7904,7 +8636,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-arrow-right", feature = "20-solid"))]
         #[component]
         pub fn ArrowRight(
@@ -7917,7 +8649,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-credit-card", feature = "20-solid"))]
         #[component]
         pub fn CreditCard(
@@ -7930,7 +8662,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-x-mark", feature = "20-solid"))]
         #[component]
         pub fn XMark(
@@ -7943,8 +8675,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-building-storefront", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-building-storefront",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn BuildingStorefront(
             cx: Scope,
@@ -7956,7 +8691,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-light-bulb", feature = "20-solid"))]
         #[component]
         pub fn LightBulb(
@@ -7969,7 +8704,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-bookmark-square", feature = "20-solid"))]
         #[component]
         pub fn BookmarkSquare(
@@ -7982,7 +8717,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-scissors", feature = "20-solid"))]
         #[component]
         pub fn Scissors(
@@ -7996,7 +8731,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-bars-3", feature = "20-solid"))]
         #[component]
         pub fn Bars3(
@@ -8009,7 +8744,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-table-cells", feature = "20-solid"))]
         #[component]
         pub fn TableCells(
@@ -8022,8 +8757,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-square-3-stack-3d", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-square-3-stack-3d",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn Square3Stack3D(
             cx: Scope,
@@ -8037,7 +8775,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-bars-2", feature = "20-solid"))]
         #[component]
         pub fn Bars2(
@@ -8050,7 +8788,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-arrow-up-left", feature = "20-solid"))]
         #[component]
         pub fn ArrowUpLeft(
@@ -8063,7 +8801,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-minus-circle", feature = "20-solid"))]
         #[component]
         pub fn MinusCircle(
@@ -8076,8 +8814,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-left-circle", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-left-circle",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowLeftCircle(
             cx: Scope,
@@ -8096,8 +8837,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-magnifying-glass-circle", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-magnifying-glass-circle",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn MagnifyingGlassCircle(
             cx: Scope,
@@ -8110,7 +8854,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-shopping-cart", feature = "20-solid"))]
         #[component]
         pub fn ShoppingCart(
@@ -8123,7 +8867,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-rocket-launch", feature = "20-solid"))]
         #[component]
         pub fn RocketLaunch(
@@ -8137,7 +8881,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-photo", feature = "20-solid"))]
         #[component]
         pub fn Photo(
@@ -8150,7 +8894,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-link", feature = "20-solid"))]
         #[component]
         pub fn Link(
@@ -8164,7 +8908,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-device-tablet", feature = "20-solid"))]
         #[component]
         pub fn DeviceTablet(
@@ -8177,7 +8921,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-shield-check", feature = "20-solid"))]
         #[component]
         pub fn ShieldCheck(
@@ -8190,8 +8934,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-presentation-chart-line", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-presentation-chart-line",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn PresentationChartLine(
             cx: Scope,
@@ -8203,8 +8950,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-long-right", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-long-right",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowLongRight(
             cx: Scope,
@@ -8216,7 +8966,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-film", feature = "20-solid"))]
         #[component]
         pub fn Film(
@@ -8229,8 +8979,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-clipboard-document-check", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-clipboard-document-check",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ClipboardDocumentCheck(
             cx: Scope,
@@ -8243,7 +8996,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-window", feature = "20-solid"))]
         #[component]
         pub fn Window(
@@ -8256,7 +9009,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-cog-8-tooth", feature = "20-solid"))]
         #[component]
         pub fn Cog8Tooth(
@@ -8269,7 +9022,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-arrow-up-right", feature = "20-solid"))]
         #[component]
         pub fn ArrowUpRight(
@@ -8282,7 +9035,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-bug-ant", feature = "20-solid"))]
         #[component]
         pub fn BugAnt(
@@ -8295,7 +9048,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-bars-arrow-up", feature = "20-solid"))]
         #[component]
         pub fn BarsArrowUp(
@@ -8308,7 +9061,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-bookmark-slash", feature = "20-solid"))]
         #[component]
         pub fn BookmarkSlash(
@@ -8321,7 +9074,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-calculator", feature = "20-solid"))]
         #[component]
         pub fn Calculator(
@@ -8334,7 +9087,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-beaker", feature = "20-solid"))]
         #[component]
         pub fn Beaker(
@@ -8347,7 +9100,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-finger-print", feature = "20-solid"))]
         #[component]
         pub fn FingerPrint(
@@ -8360,7 +9113,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-speaker-x-mark", feature = "20-solid"))]
         #[component]
         pub fn SpeakerXMark(
@@ -8373,8 +9126,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-down-right", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-down-right",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowDownRight(
             cx: Scope,
@@ -8386,7 +9142,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-megaphone", feature = "20-solid"))]
         #[component]
         pub fn Megaphone(
@@ -8399,7 +9155,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-cpu-chip", feature = "20-solid"))]
         #[component]
         pub fn CpuChip(
@@ -8413,8 +9169,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-document-chart-bar", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-document-chart-bar",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn DocumentChartBar(
             cx: Scope,
@@ -8426,7 +9185,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-academic-cap", feature = "20-solid"))]
         #[component]
         pub fn AcademicCap(
@@ -8439,8 +9198,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-exclamation-triangle", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-exclamation-triangle",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ExclamationTriangle(
             cx: Scope,
@@ -8452,7 +9214,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-face-smile", feature = "20-solid"))]
         #[component]
         pub fn FaceSmile(
@@ -8465,7 +9227,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-stop-circle", feature = "20-solid"))]
         #[component]
         pub fn StopCircle(
@@ -8478,7 +9240,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-chevron-up-down", feature = "20-solid"))]
         #[component]
         pub fn ChevronUpDown(
@@ -8491,7 +9253,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-paint-brush", feature = "20-solid"))]
         #[component]
         pub fn PaintBrush(
@@ -8504,7 +9266,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-envelope", feature = "20-solid"))]
         #[component]
         pub fn Envelope(
@@ -8518,8 +9280,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-magnifying-glass", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-magnifying-glass",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn MagnifyingGlass(
             cx: Scope,
@@ -8531,7 +9296,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-backward", feature = "20-solid"))]
         #[component]
         pub fn Backward(
@@ -8544,8 +9309,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-uturn-right", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-uturn-right",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowUturnRight(
             cx: Scope,
@@ -8557,7 +9325,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-sun", feature = "20-solid"))]
         #[component]
         pub fn Sun(
@@ -8570,8 +9338,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-down-on-square", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-down-on-square",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowDownOnSquare(
             cx: Scope,
@@ -8583,7 +9354,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-bookmark", feature = "20-solid"))]
         #[component]
         pub fn Bookmark(
@@ -8596,7 +9367,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-chevron-up", feature = "20-solid"))]
         #[component]
         pub fn ChevronUp(
@@ -8609,8 +9380,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-exclamation-circle", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-exclamation-circle",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ExclamationCircle(
             cx: Scope,
@@ -8622,7 +9396,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-document-text", feature = "20-solid"))]
         #[component]
         pub fn DocumentText(
@@ -8635,7 +9409,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-heart", feature = "20-solid"))]
         #[component]
         pub fn Heart(
@@ -8648,7 +9422,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-cake", feature = "20-solid"))]
         #[component]
         pub fn Cake(
@@ -8661,7 +9435,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-home", feature = "20-solid"))]
         #[component]
         pub fn Home(
@@ -8674,7 +9448,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-gif", feature = "20-solid"))]
         #[component]
         pub fn Gif(
@@ -8687,7 +9461,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-play", feature = "20-solid"))]
         #[component]
         pub fn Play(
@@ -8700,7 +9474,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-chevron-right", feature = "20-solid"))]
         #[component]
         pub fn ChevronRight(
@@ -8713,8 +9487,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-presentation-chart-bar", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-presentation-chart-bar",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn PresentationChartBar(
             cx: Scope,
@@ -8726,8 +9503,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-phone-arrow-up-right", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-phone-arrow-up-right",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn PhoneArrowUpRight(
             cx: Scope,
@@ -8739,7 +9519,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-bell-snooze", feature = "20-solid"))]
         #[component]
         pub fn BellSnooze(
@@ -8752,7 +9532,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-tv", feature = "20-solid"))]
         #[component]
         pub fn Tv(
@@ -8766,7 +9546,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-currency-dollar", feature = "20-solid"))]
         #[component]
         pub fn CurrencyDollar(
@@ -8780,7 +9560,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-currency-yen", feature = "20-solid"))]
         #[component]
         pub fn CurrencyYen(
@@ -8793,7 +9573,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-envelope-open", feature = "20-solid"))]
         #[component]
         pub fn EnvelopeOpen(
@@ -8806,8 +9586,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-chevron-double-right", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-chevron-double-right",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ChevronDoubleRight(
             cx: Scope,
@@ -8820,7 +9603,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-folder-minus", feature = "20-solid"))]
         #[component]
         pub fn FolderMinus(
@@ -8833,7 +9616,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-user-plus", feature = "20-solid"))]
         #[component]
         pub fn UserPlus(
@@ -8846,7 +9629,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-trash", feature = "20-solid"))]
         #[component]
         pub fn Trash(
@@ -8859,8 +9642,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-device-phone-mobile", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-device-phone-mobile",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn DevicePhoneMobile(
             cx: Scope,
@@ -8873,7 +9659,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-hashtag", feature = "20-solid"))]
         #[component]
         pub fn Hashtag(
@@ -8886,7 +9672,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-bars-4", feature = "20-solid"))]
         #[component]
         pub fn Bars4(
@@ -8899,8 +9685,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-chat-bubble-bottom-center-text", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-chat-bubble-bottom-center-text",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ChatBubbleBottomCenterText(
             cx: Scope,
@@ -8912,8 +9701,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-adjustments-vertical", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-adjustments-vertical",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn AdjustmentsVertical(
             cx: Scope,
@@ -8925,8 +9717,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-globe-europe-africa", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-globe-europe-africa",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn GlobeEuropeAfrica(
             cx: Scope,
@@ -8938,8 +9733,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-chat-bubble-oval-left-ellipsis", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-chat-bubble-oval-left-ellipsis",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ChatBubbleOvalLeftEllipsis(
             cx: Scope,
@@ -8951,8 +9749,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-small-down", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-small-down",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowSmallDown(
             cx: Scope,
@@ -8964,8 +9765,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-clipboard-document", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-clipboard-document",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ClipboardDocument(
             cx: Scope,
@@ -8978,7 +9782,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-phone", feature = "20-solid"))]
         #[component]
         pub fn Phone(
@@ -8991,7 +9795,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-scale", feature = "20-solid"))]
         #[component]
         pub fn Scale(
@@ -9004,7 +9808,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-arrow-up-tray", feature = "20-solid"))]
         #[component]
         pub fn ArrowUpTray(
@@ -9018,7 +9822,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-chevron-left", feature = "20-solid"))]
         #[component]
         pub fn ChevronLeft(
@@ -9031,7 +9835,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-check-badge", feature = "20-solid"))]
         #[component]
         pub fn CheckBadge(
@@ -9044,7 +9848,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-cube", feature = "20-solid"))]
         #[component]
         pub fn Cube(
@@ -9057,8 +9861,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-viewfinder-circle", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-viewfinder-circle",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ViewfinderCircle(
             cx: Scope,
@@ -9070,8 +9877,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-ellipsis-horizontal", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-ellipsis-horizontal",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn EllipsisHorizontal(
             cx: Scope,
@@ -9083,7 +9893,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-document-check", feature = "20-solid"))]
         #[component]
         pub fn DocumentCheck(
@@ -9096,7 +9906,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-play-pause", feature = "20-solid"))]
         #[component]
         pub fn PlayPause(
@@ -9109,7 +9919,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-bars-arrow-down", feature = "20-solid"))]
         #[component]
         pub fn BarsArrowDown(
@@ -9122,8 +9932,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-computer-desktop", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-computer-desktop",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ComputerDesktop(
             cx: Scope,
@@ -9135,7 +9948,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-home-modern", feature = "20-solid"))]
         #[component]
         pub fn HomeModern(
@@ -9148,8 +9961,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-currency-bangladeshi", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-currency-bangladeshi",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn CurrencyBangladeshi(
             cx: Scope,
@@ -9161,7 +9977,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-shopping-bag", feature = "20-solid"))]
         #[component]
         pub fn ShoppingBag(
@@ -9174,7 +9990,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-globe-alt", feature = "20-solid"))]
         #[component]
         pub fn GlobeAlt(
@@ -9187,8 +10003,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-ellipsis-vertical", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-ellipsis-vertical",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn EllipsisVertical(
             cx: Scope,
@@ -9200,7 +10019,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-inbox-stack", feature = "20-solid"))]
         #[component]
         pub fn InboxStack(
@@ -9214,7 +10033,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-hand-raised", feature = "20-solid"))]
         #[component]
         pub fn HandRaised(
@@ -9227,8 +10046,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-question-mark-circle", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-question-mark-circle",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn QuestionMarkCircle(
             cx: Scope,
@@ -9240,7 +10062,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-document-plus", feature = "20-solid"))]
         #[component]
         pub fn DocumentPlus(
@@ -9253,7 +10075,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-fire", feature = "20-solid"))]
         #[component]
         pub fn Fire(
@@ -9266,8 +10088,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-ellipsis-horizontal-circle", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-ellipsis-horizontal-circle",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn EllipsisHorizontalCircle(
             cx: Scope,
@@ -9279,8 +10104,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-phone-arrow-down-left", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-phone-arrow-down-left",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn PhoneArrowDownLeft(
             cx: Scope,
@@ -9292,8 +10120,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-magnifying-glass-plus", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-magnifying-glass-plus",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn MagnifyingGlassPlus(
             cx: Scope,
@@ -9306,7 +10137,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-identification", feature = "20-solid"))]
         #[component]
         pub fn Identification(
@@ -9319,7 +10150,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-bell-slash", feature = "20-solid"))]
         #[component]
         pub fn BellSlash(
@@ -9332,7 +10163,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-key", feature = "20-solid"))]
         #[component]
         pub fn Key(
@@ -9345,8 +10176,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-left-on-rectangle", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-left-on-rectangle",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowLeftOnRectangle(
             cx: Scope,
@@ -9359,8 +10193,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-adjustments-horizontal", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-adjustments-horizontal",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn AdjustmentsHorizontal(
             cx: Scope,
@@ -9372,7 +10209,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-rectangle-stack", feature = "20-solid"))]
         #[component]
         pub fn RectangleStack(
@@ -9385,8 +10222,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-down-on-square-stack", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-down-on-square-stack",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowDownOnSquareStack(
             cx: Scope,
@@ -9398,7 +10238,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-globe-americas", feature = "20-solid"))]
         #[component]
         pub fn GlobeAmericas(
@@ -9411,8 +10251,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-clipboard-document-list", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-clipboard-document-list",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ClipboardDocumentList(
             cx: Scope,
@@ -9425,8 +10268,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-building-office-2", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-building-office-2",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn BuildingOffice2(
             cx: Scope,
@@ -9438,8 +10284,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-up-on-square", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-up-on-square",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowUpOnSquare(
             cx: Scope,
@@ -9451,7 +10300,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-sparkles", feature = "20-solid"))]
         #[component]
         pub fn Sparkles(
@@ -9464,7 +10313,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-backspace", feature = "20-solid"))]
         #[component]
         pub fn Backspace(
@@ -9477,7 +10326,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-currency-rupee", feature = "20-solid"))]
         #[component]
         pub fn CurrencyRupee(
@@ -9490,7 +10339,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-lifebuoy", feature = "20-solid"))]
         #[component]
         pub fn Lifebuoy(
@@ -9503,8 +10352,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-bars-3-bottom-right", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-bars-3-bottom-right",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn Bars3BottomRight(
             cx: Scope,
@@ -9516,8 +10368,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-video-camera-slash", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-video-camera-slash",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn VideoCameraSlash(
             cx: Scope,
@@ -9529,7 +10384,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-hand-thumb-up", feature = "20-solid"))]
         #[component]
         pub fn HandThumbUp(
@@ -9542,7 +10397,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-folder-open", feature = "20-solid"))]
         #[component]
         pub fn FolderOpen(
@@ -9555,7 +10410,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-hand-thumb-down", feature = "20-solid"))]
         #[component]
         pub fn HandThumbDown(
@@ -9568,8 +10423,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-wrench-screwdriver", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-wrench-screwdriver",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn WrenchScrewdriver(
             cx: Scope,
@@ -9582,8 +10440,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-magnifying-glass-minus", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-magnifying-glass-minus",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn MagnifyingGlassMinus(
             cx: Scope,
@@ -9596,7 +10457,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-map", feature = "20-solid"))]
         #[component]
         pub fn Map(
@@ -9609,8 +10470,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-folder-arrow-down", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-folder-arrow-down",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn FolderArrowDown(
             cx: Scope,
@@ -9622,7 +10486,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-rss", feature = "20-solid"))]
         #[component]
         pub fn Rss(
@@ -9636,7 +10500,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-phone-x-mark", feature = "20-solid"))]
         #[component]
         pub fn PhoneXMark(
@@ -9649,7 +10513,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-user-group", feature = "20-solid"))]
         #[component]
         pub fn UserGroup(
@@ -9662,7 +10526,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-document", feature = "20-solid"))]
         #[component]
         pub fn Document(
@@ -9675,7 +10539,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-arrow-long-left", feature = "20-solid"))]
         #[component]
         pub fn ArrowLongLeft(
@@ -9688,8 +10552,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-down-circle", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-down-circle",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowDownCircle(
             cx: Scope,
@@ -9701,7 +10568,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-cog-6-tooth", feature = "20-solid"))]
         #[component]
         pub fn Cog6Tooth(
@@ -9714,7 +10581,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-user-circle", feature = "20-solid"))]
         #[component]
         pub fn UserCircle(
@@ -9727,7 +10594,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-at-symbol", feature = "20-solid"))]
         #[component]
         pub fn AtSymbol(
@@ -9740,7 +10607,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-wrench", feature = "20-solid"))]
         #[component]
         pub fn Wrench(
@@ -9753,8 +10620,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-trending-up", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-trending-up",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowTrendingUp(
             cx: Scope,
@@ -9766,7 +10636,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-list-bullet", feature = "20-solid"))]
         #[component]
         pub fn ListBullet(
@@ -9779,7 +10649,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-calendar-days", feature = "20-solid"))]
         #[component]
         pub fn CalendarDays(
@@ -9793,8 +10663,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrows-pointing-in", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrows-pointing-in",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowsPointingIn(
             cx: Scope,
@@ -9806,7 +10679,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-arrow-path", feature = "20-solid"))]
         #[component]
         pub fn ArrowPath(
@@ -9819,7 +10692,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-x-circle", feature = "20-solid"))]
         #[component]
         pub fn XCircle(
@@ -9832,8 +10705,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-right-circle", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-right-circle",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowRightCircle(
             cx: Scope,
@@ -9845,7 +10721,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-minus-small", feature = "20-solid"))]
         #[component]
         pub fn MinusSmall(
@@ -9858,8 +10734,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-cube-transparent", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-cube-transparent",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn CubeTransparent(
             cx: Scope,
@@ -9871,7 +10750,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-eye", feature = "20-solid"))]
         #[component]
         pub fn Eye(
@@ -9885,7 +10764,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-plus-circle", feature = "20-solid"))]
         #[component]
         pub fn PlusCircle(
@@ -9898,8 +10777,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-chat-bubble-left-right", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-chat-bubble-left-right",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ChatBubbleLeftRight(
             cx: Scope,
@@ -9912,7 +10794,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-arrow-up", feature = "20-solid"))]
         #[component]
         pub fn ArrowUp(
@@ -9925,8 +10807,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-chart-bar-square", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-chart-bar-square",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ChartBarSquare(
             cx: Scope,
@@ -9938,7 +10823,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-qr-code", feature = "20-solid"))]
         #[component]
         pub fn QrCode(
@@ -9951,8 +10836,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-chevron-double-down", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-chevron-double-down",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ChevronDoubleDown(
             cx: Scope,
@@ -9964,7 +10852,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-map-pin", feature = "20-solid"))]
         #[component]
         pub fn MapPin(
@@ -9977,7 +10865,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-battery-100", feature = "20-solid"))]
         #[component]
         pub fn Battery100(
@@ -9991,7 +10879,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-paper-airplane", feature = "20-solid"))]
         #[component]
         pub fn PaperAirplane(
@@ -10004,7 +10892,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-arrow-down-tray", feature = "20-solid"))]
         #[component]
         pub fn ArrowDownTray(
@@ -10018,7 +10906,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-queue-list", feature = "20-solid"))]
         #[component]
         pub fn QueueList(
@@ -10031,8 +10919,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-uturn-left", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-uturn-left",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowUturnLeft(
             cx: Scope,
@@ -10044,8 +10935,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-trending-down", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-trending-down",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowTrendingDown(
             cx: Scope,
@@ -10057,7 +10951,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-code-bracket", feature = "20-solid"))]
         #[component]
         pub fn CodeBracket(
@@ -10070,7 +10964,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-pencil", feature = "20-solid"))]
         #[component]
         pub fn Pencil(
@@ -10083,7 +10977,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-clock", feature = "20-solid"))]
         #[component]
         pub fn Clock(
@@ -10096,7 +10990,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-clipboard", feature = "20-solid"))]
         #[component]
         pub fn Clipboard(
@@ -10109,7 +11003,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-plus-small", feature = "20-solid"))]
         #[component]
         pub fn PlusSmall(
@@ -10122,7 +11016,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-pause-circle", feature = "20-solid"))]
         #[component]
         pub fn PauseCircle(
@@ -10135,7 +11029,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-camera", feature = "20-solid"))]
         #[component]
         pub fn Camera(
@@ -10148,7 +11042,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-currency-euro", feature = "20-solid"))]
         #[component]
         pub fn CurrencyEuro(
@@ -10161,7 +11055,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-speaker-wave", feature = "20-solid"))]
         #[component]
         pub fn SpeakerWave(
@@ -10175,7 +11069,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-arrows-up-down", feature = "20-solid"))]
         #[component]
         pub fn ArrowsUpDown(
@@ -10188,7 +11082,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-banknotes", feature = "20-solid"))]
         #[component]
         pub fn Banknotes(
@@ -10201,8 +11095,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-chevron-double-up", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-chevron-double-up",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ChevronDoubleUp(
             cx: Scope,
@@ -10214,7 +11111,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-squares-plus", feature = "20-solid"))]
         #[component]
         pub fn SquaresPlus(
@@ -10227,7 +11124,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-view-columns", feature = "20-solid"))]
         #[component]
         pub fn ViewColumns(
@@ -10240,7 +11137,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-newspaper", feature = "20-solid"))]
         #[component]
         pub fn Newspaper(
@@ -10254,7 +11151,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-user", feature = "20-solid"))]
         #[component]
         pub fn User(
@@ -10267,7 +11164,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-inbox", feature = "20-solid"))]
         #[component]
         pub fn Inbox(
@@ -10280,7 +11177,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-microphone", feature = "20-solid"))]
         #[component]
         pub fn Microphone(
@@ -10294,7 +11191,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-arrow-down-left", feature = "20-solid"))]
         #[component]
         pub fn ArrowDownLeft(
@@ -10307,7 +11204,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-arrow-small-up", feature = "20-solid"))]
         #[component]
         pub fn ArrowSmallUp(
@@ -10320,7 +11217,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-book-open", feature = "20-solid"))]
         #[component]
         pub fn BookOpen(
@@ -10333,7 +11230,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-users", feature = "20-solid"))]
         #[component]
         pub fn Users(
@@ -10346,7 +11243,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-chart-pie", feature = "20-solid"))]
         #[component]
         pub fn ChartPie(
@@ -10360,7 +11257,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-command-line", feature = "20-solid"))]
         #[component]
         pub fn CommandLine(
@@ -10373,8 +11270,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-building-library", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-building-library",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn BuildingLibrary(
             cx: Scope,
@@ -10386,7 +11286,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-cloud-arrow-up", feature = "20-solid"))]
         #[component]
         pub fn CloudArrowUp(
@@ -10399,7 +11299,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-wallet", feature = "20-solid"))]
         #[component]
         pub fn Wallet(
@@ -10412,7 +11312,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-lock-closed", feature = "20-solid"))]
         #[component]
         pub fn LockClosed(
@@ -10425,8 +11325,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-information-circle", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-information-circle",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn InformationCircle(
             cx: Scope,
@@ -10438,7 +11341,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-funnel", feature = "20-solid"))]
         #[component]
         pub fn Funnel(
@@ -10451,8 +11354,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-cursor-arrow-rays", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-cursor-arrow-rays",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn CursorArrowRays(
             cx: Scope,
@@ -10464,7 +11370,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-check-circle", feature = "20-solid"))]
         #[component]
         pub fn CheckCircle(
@@ -10477,8 +11383,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrows-pointing-out", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrows-pointing-out",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowsPointingOut(
             cx: Scope,
@@ -10490,7 +11399,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-chevron-down", feature = "20-solid"))]
         #[component]
         pub fn ChevronDown(
@@ -10503,8 +11412,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-archive-box-arrow-down", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-archive-box-arrow-down",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArchiveBoxArrowDown(
             cx: Scope,
@@ -10516,7 +11428,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-share", feature = "20-solid"))]
         #[component]
         pub fn Share(
@@ -10529,8 +11441,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-document-magnifying-glass", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-document-magnifying-glass",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn DocumentMagnifyingGlass(
             cx: Scope,
@@ -10543,7 +11458,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-bell-alert", feature = "20-solid"))]
         #[component]
         pub fn BellAlert(
@@ -10557,7 +11472,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-folder-plus", feature = "20-solid"))]
         #[component]
         pub fn FolderPlus(
@@ -10570,7 +11485,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-wifi", feature = "20-solid"))]
         #[component]
         pub fn Wifi(
@@ -10583,7 +11498,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-eye-slash", feature = "20-solid"))]
         #[component]
         pub fn EyeSlash(
@@ -10597,7 +11512,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-plus", feature = "20-solid"))]
         #[component]
         pub fn Plus(
@@ -10610,8 +11525,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-globe-asia-australia", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-globe-asia-australia",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn GlobeAsiaAustralia(
             cx: Scope,
@@ -10623,7 +11541,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-language", feature = "20-solid"))]
         #[component]
         pub fn Language(
@@ -10637,8 +11555,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-small-left", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-small-left",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowSmallLeft(
             cx: Scope,
@@ -10650,7 +11571,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-battery-50", feature = "20-solid"))]
         #[component]
         pub fn Battery50(
@@ -10664,7 +11585,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-printer", feature = "20-solid"))]
         #[component]
         pub fn Printer(
@@ -10677,7 +11598,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-gift", feature = "20-solid"))]
         #[component]
         pub fn Gift(
@@ -10691,7 +11612,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-forward", feature = "20-solid"))]
         #[component]
         pub fn Forward(
@@ -10704,8 +11625,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-small-right", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-small-right",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowSmallRight(
             cx: Scope,
@@ -10717,7 +11641,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-arrow-down", feature = "20-solid"))]
         #[component]
         pub fn ArrowDown(
@@ -10730,7 +11654,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-radio", feature = "20-solid"))]
         #[component]
         pub fn Radio(
@@ -10743,7 +11667,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-flag", feature = "20-solid"))]
         #[component]
         pub fn Flag(
@@ -10756,7 +11680,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-video-camera", feature = "20-solid"))]
         #[component]
         pub fn VideoCamera(
@@ -10769,7 +11693,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-face-frown", feature = "20-solid"))]
         #[component]
         pub fn FaceFrown(
@@ -10782,7 +11706,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-signal", feature = "20-solid"))]
         #[component]
         pub fn Signal(
@@ -10796,8 +11720,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-cloud-arrow-down", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-cloud-arrow-down",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn CloudArrowDown(
             cx: Scope,
@@ -10809,7 +11736,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-circle-stack", feature = "20-solid"))]
         #[component]
         pub fn CircleStack(
@@ -10822,7 +11749,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-currency-pound", feature = "20-solid"))]
         #[component]
         pub fn CurrencyPound(
@@ -10835,7 +11762,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-no-symbol", feature = "20-solid"))]
         #[component]
         pub fn NoSymbol(
@@ -10848,8 +11775,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrows-right-left", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrows-right-left",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowsRightLeft(
             cx: Scope,
@@ -10861,7 +11791,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-lock-open", feature = "20-solid"))]
         #[component]
         pub fn LockOpen(
@@ -10874,7 +11804,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-bolt", feature = "20-solid"))]
         #[component]
         pub fn Bolt(
@@ -10887,7 +11817,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-truck", feature = "20-solid"))]
         #[component]
         pub fn Truck(
@@ -10901,7 +11831,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-server-stack", feature = "20-solid"))]
         #[component]
         pub fn ServerStack(
@@ -10915,8 +11845,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-bars-3-center-left", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-bars-3-center-left",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn Bars3CenterLeft(
             cx: Scope,
@@ -10928,7 +11861,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-check", feature = "20-solid"))]
         #[component]
         pub fn Check(
@@ -10941,7 +11874,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-square-2-stack", feature = "20-solid"))]
         #[component]
         pub fn Square2Stack(
@@ -10955,7 +11888,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-archive-box", feature = "20-solid"))]
         #[component]
         pub fn ArchiveBox(
@@ -10969,8 +11902,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-shield-exclamation", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-shield-exclamation",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ShieldExclamation(
             cx: Scope,
@@ -10982,7 +11918,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-tag", feature = "20-solid"))]
         #[component]
         pub fn Tag(
@@ -10995,7 +11931,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-swatch", feature = "20-solid"))]
         #[component]
         pub fn Swatch(
@@ -11008,7 +11944,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-receipt-percent", feature = "20-solid"))]
         #[component]
         pub fn ReceiptPercent(
@@ -11021,8 +11957,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-uturn-down", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-uturn-down",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowUturnDown(
             cx: Scope,
@@ -11034,7 +11973,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-server", feature = "20-solid"))]
         #[component]
         pub fn Server(
@@ -11048,8 +11987,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-path-rounded-square", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-path-rounded-square",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowPathRoundedSquare(
             cx: Scope,
@@ -11061,8 +12003,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-chat-bubble-left-ellipsis", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-chat-bubble-left-ellipsis",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ChatBubbleLeftEllipsis(
             cx: Scope,
@@ -11074,7 +12019,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-calendar", feature = "20-solid"))]
         #[component]
         pub fn Calendar(
@@ -11087,7 +12032,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-trophy", feature = "20-solid"))]
         #[component]
         pub fn Trophy(
@@ -11100,7 +12045,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-user-minus", feature = "20-solid"))]
         #[component]
         pub fn UserMinus(
@@ -11113,7 +12058,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-arrow-long-down", feature = "20-solid"))]
         #[component]
         pub fn ArrowLongDown(
@@ -11126,7 +12071,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-puzzle-piece", feature = "20-solid"))]
         #[component]
         pub fn PuzzlePiece(
@@ -11139,7 +12084,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-building-office", feature = "20-solid"))]
         #[component]
         pub fn BuildingOffice(
@@ -11152,7 +12097,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-briefcase", feature = "20-solid"))]
         #[component]
         pub fn Briefcase(
@@ -11166,7 +12111,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-musical-note", feature = "20-solid"))]
         #[component]
         pub fn MusicalNote(
@@ -11179,7 +12124,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-rectangle-group", feature = "20-solid"))]
         #[component]
         pub fn RectangleGroup(
@@ -11192,8 +12137,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-document-arrow-up", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-document-arrow-up",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn DocumentArrowUp(
             cx: Scope,
@@ -11205,7 +12153,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-paper-clip", feature = "20-solid"))]
         #[component]
         pub fn PaperClip(
@@ -11218,7 +12166,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-stop", feature = "20-solid"))]
         #[component]
         pub fn Stop(
@@ -11231,7 +12179,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-receipt-refund", feature = "20-solid"))]
         #[component]
         pub fn ReceiptRefund(
@@ -11244,7 +12192,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-squares-2x2", feature = "20-solid"))]
         #[component]
         pub fn Squares2X2(
@@ -11257,7 +12205,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-minus", feature = "20-solid"))]
         #[component]
         pub fn Minus(
@@ -11270,7 +12218,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-arrow-up-circle", feature = "20-solid"))]
         #[component]
         pub fn ArrowUpCircle(
@@ -11283,8 +12231,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-document-duplicate", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-document-duplicate",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn DocumentDuplicate(
             cx: Scope,
@@ -11297,7 +12248,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-play-circle", feature = "20-solid"))]
         #[component]
         pub fn PlayCircle(
@@ -11310,7 +12261,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-eye-dropper", feature = "20-solid"))]
         #[component]
         pub fn EyeDropper(
@@ -11323,7 +12274,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-cloud", feature = "20-solid"))]
         #[component]
         pub fn Cloud(
@@ -11336,8 +12287,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-chat-bubble-bottom-center", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-chat-bubble-bottom-center",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ChatBubbleBottomCenter(
             cx: Scope,
@@ -11349,8 +12303,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-bars-3-bottom-left", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-bars-3-bottom-left",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn Bars3BottomLeft(
             cx: Scope,
@@ -11362,8 +12319,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-chat-bubble-oval-left", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-chat-bubble-oval-left",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ChatBubbleOvalLeft(
             cx: Scope,
@@ -11375,7 +12335,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-pause", feature = "20-solid"))]
         #[component]
         pub fn Pause(
@@ -11388,8 +12348,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-up-on-square-stack", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-up-on-square-stack",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowUpOnSquareStack(
             cx: Scope,
@@ -11401,8 +12364,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-arrow-right-on-rectangle", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-arrow-right-on-rectangle",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ArrowRightOnRectangle(
             cx: Scope,
@@ -11415,7 +12381,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-moon", feature = "20-solid"))]
         #[component]
         pub fn Moon(
@@ -11428,7 +12394,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-battery-0", feature = "20-solid"))]
         #[component]
         pub fn Battery0(
@@ -11441,7 +12407,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-bolt-slash", feature = "20-solid"))]
         #[component]
         pub fn BoltSlash(
@@ -11455,7 +12421,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-arrow-left", feature = "20-solid"))]
         #[component]
         pub fn ArrowLeft(
@@ -11468,7 +12434,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-star", feature = "20-solid"))]
         #[component]
         pub fn Star(
@@ -11481,8 +12447,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-chat-bubble-left", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-chat-bubble-left",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ChatBubbleLeft(
             cx: Scope,
@@ -11494,8 +12463,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-chevron-double-left", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-chevron-double-left",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn ChevronDoubleLeft(
             cx: Scope,
@@ -11507,7 +12479,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-chart-bar", feature = "20-solid"))]
         #[component]
         pub fn ChartBar(
@@ -11520,7 +12492,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-arrow-uturn-up", feature = "20-solid"))]
         #[component]
         pub fn ArrowUturnUp(
@@ -11533,8 +12505,11 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
-        #[cfg(any(feature = "20-solid-cursor-arrow-ripple", feature = "20-solid"))]
+
+        #[cfg(any(
+            feature = "20-solid-cursor-arrow-ripple",
+            feature = "20-solid"
+        ))]
         #[component]
         pub fn CursorArrowRipple(
             cx: Scope,
@@ -11546,7 +12521,7 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
+
         #[cfg(any(feature = "20-solid-folder", feature = "20-solid"))]
         #[component]
         pub fn Folder(
@@ -11559,8 +12534,5 @@ pub mod size_20 {
                 </svg>
             }
         }
-        
     }
-
 }
-
