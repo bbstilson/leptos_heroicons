@@ -1,6 +1,6 @@
 # Heroicons - Leptos
 
-![demo video](./example.webm)
+![demo video](./example.mp4)
 
 ## Running
 
