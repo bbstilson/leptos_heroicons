@@ -26,7 +26,7 @@ leptos_heroicons = { version = "0.1.0", features = [
 
 In your leptos app:
 
-```rs
+```rust
 use leptos::*;
 use leptos_heroions::size_24::solid::Power;
 
