@@ -28,7 +28,7 @@ In your leptos app:
 
 ```rust
 use leptos::*;
-use leptos_heroions::size_24::solid::Power;
+use leptos_heroicons::size_24::solid::Power;
 
 #[component]
 fn UnlimitedPower(cx: Scope) -> impl IntoView {
