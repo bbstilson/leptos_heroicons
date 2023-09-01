@@ -45,7 +45,7 @@ fn main() -> Result<()> {
 
             let component_name = caps["component_name"].to_string();
             let component = formatdoc! {r#"
-            view! {{ cx, <{component_name} /> }},"#};
+            view! {{ <{component_name} /> }},"#};
             component_type_to_components
                 .entry(module)
                 .and_modify(|cs| cs.push(component.clone()))
@@ -61,7 +61,7 @@ fn main() -> Result<()> {
             &mut components_file,
             "{}",
             formatdoc! {r#"
-                pub fn {}(cx: Scope) -> Vec<impl IntoView> {{
+                pub fn {}() -> Vec<impl IntoView> {{
                     use leptos_heroicons::{component_type}::*;
 
                     vec!["#,

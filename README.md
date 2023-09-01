@@ -31,8 +31,8 @@ use leptos::*;
 use leptos_heroicons::size_24::solid::Power;
 
 #[component]
-fn UnlimitedPower(cx: Scope) -> impl IntoView {
-    view! { cx,
+fn UnlimitedPower() -> impl IntoView {
+    view! {
         <Power />
     }
 }
