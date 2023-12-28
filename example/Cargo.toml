@@ -10,8 +10,9 @@ leptos_heroicons = { path = "..", features = [
   "24-solid",
   "24-outline",
   "20-solid",
+  "16-solid",
 ]}
-wasm-bindgen = "0.2.87"
-web-sys = { version = "0.3.64" }
-console_error_panic_hook = "0.1.7"
-wasm-logger = "0.2.0"
+wasm-bindgen = "0.2"
+web-sys = { version = "0.3" }
+console_error_panic_hook = "0.1"
+wasm-logger = "0.2"
