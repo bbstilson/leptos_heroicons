@@ -1,9 +1,10 @@
-use anyhow::Result;
-use convert_case::Casing;
-use indoc::formatdoc;
 use std::fs;
 use std::io::Write;
 use std::path;
+
+use anyhow::Result;
+use convert_case::Casing;
+use indoc::formatdoc;
 
 mod constants;
 mod download_heroicons;
@@ -52,8 +53,8 @@ fn generate_library(
         if file_type.is_dir() {
             let dir_name = entry_name(&entry);
 
-            // If we can parse the dir_name as an integer, then we need to add the
-            // `size_` prefix.
+            // If we can parse the dir_name as an integer, then we need to add
+            // the `size_` prefix.
             let module_name = match dir_name.parse::<i32>() {
                 Ok(_) => format!("size_{dir_name}"),
                 Err(_) => dir_name,
@@ -83,9 +84,10 @@ fn generate_library(
                 .into_owned();
             let svg = get_and_prep_svg(&entry, indent)?;
 
-            // The feature path is the directory path we took to get to this component
-            // it's used to create a specific feature flag (e.g., 24-solid-banana) and
-            // also a high-level feature (e.g., 24-solid).
+            // The feature path is the directory path we took to get to this
+            // component it's used to create a specific feature flag
+            // (e.g., 24-solid-banana) and also a high-level feature
+            // (e.g., 24-solid).
             let feature_path = entry
                 .path()
                 .parent()
@@ -141,10 +143,9 @@ fn make_component(
         #[cfg(any(feature = "{feature_name}", feature = "{feature_path}"))]
         #[component]
         pub fn {component_name}(
-            cx: Scope,
             #[prop(optional, into)] class: Option<AttributeValue>,
         ) -> impl IntoView {{
-            view! {{ cx,
+            view! {{
                 {svg}
             }}
         }}

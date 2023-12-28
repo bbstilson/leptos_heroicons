@@ -6,10 +6,10 @@ publish = false
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
-anyhow = "1.0.72"
-convert_case = "0.6.0"
+anyhow = "1.0"
+convert_case = "0.6"
 indoc = "2.0"
-regex = "1.9.1"
-reqwest = { version = "0.11.18", features = ["blocking"] }
-toml = "0.7.6"
-zip = { version = "0.6.6", features = ["deflate"], default-features = false }
+regex = "1.10"
+reqwest = { version = "0.11", features = ["blocking"] }
+toml = "0.8"
+zip = { version = "0.6", features = ["deflate"], default-features = false }

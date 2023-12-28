@@ -9,23 +9,20 @@ enum IconType {
     Solid,
     Outline,
     Mini,
+    Micro,
 }
 
 pub fn main() {
-    mount_to_body(move |cx| {
-        view! { cx, <App /> }
+    mount_to_body(move || {
+        view! { <App /> }
     });
 }
 
 #[component]
-fn App(cx: Scope) -> impl IntoView {
-    let (active_icon_type, set_icon_type) = create_signal(cx, IconType::Solid);
+fn App() -> impl IntoView {
+    let (active_icon_type, set_icon_type) = create_signal(IconType::Solid);
 
-    create_effect(cx, move |_| {
-        log!("{:?}", active_icon_type.get());
-    });
-
-    view! { cx,
+    view! {
         <div class="min-h-full">
             <nav class="border-b border-gray-200 bg-white">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -44,6 +41,10 @@ fn App(cx: Scope) -> impl IntoView {
                                     icon_type=IconType::Mini
                                     active_icon_type
                                     set_icon_type />
+                                <NavLink
+                                    icon_type=IconType::Micro
+                                    active_icon_type
+                                    set_icon_type />
                             </div>
                         </div>
                     </div>
@@ -54,9 +55,10 @@ fn App(cx: Scope) -> impl IntoView {
                 <main>
                     <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
                         {move || match active_icon_type() {
-                            IconType::Solid => view! { cx, <Solid24IconGrid /> },
-                            IconType::Outline => view! { cx, <Outline24IconGrid /> },
-                            IconType::Mini => view! { cx, <Solid20IconGrid /> },
+                            IconType::Solid => view! { <Solid24IconGrid /> },
+                            IconType::Outline => view! { <Outline24IconGrid /> },
+                            IconType::Mini => view! { <Solid20IconGrid /> },
+                            IconType::Micro => view! { <Solid16IconGrid /> },
                         }}
                     </div>
                 </main>
@@ -67,13 +69,12 @@ fn App(cx: Scope) -> impl IntoView {
 
 #[component]
 fn NavLink(
-    cx: Scope,
     #[prop()] icon_type: IconType,
     #[prop()] active_icon_type: ReadSignal<IconType>,
     #[prop()] set_icon_type: WriteSignal<IconType>,
 ) -> impl IntoView {
     let icon_type_name = format!("{icon_type:?}");
-    view! { cx,
+    view! {
         <button
             class=move || {
                 if active_icon_type() == icon_type {
@@ -89,65 +90,78 @@ fn NavLink(
 }
 
 #[component]
-fn Solid24IconGrid(cx: Scope) -> impl IntoView {
-    let icons = size_24_solid(cx)
+fn Solid24IconGrid() -> impl IntoView {
+    let icons = size_24_solid()
         .into_iter()
         .map(|icon| {
-            view! { cx, <IconCell class="w-6 h-6">{icon}</IconCell>}
+            view! { <IconCell class="w-6 h-6">{icon}</IconCell>}
         })
-        .collect_view(cx);
+        .collect_view();
 
-    view! { cx,
+    view! {
         <IconGrid>{icons}</IconGrid>
     }
 }
 
 #[component]
-fn Outline24IconGrid(cx: Scope) -> impl IntoView {
-    let icons = size_24_outline(cx)
+fn Outline24IconGrid() -> impl IntoView {
+    let icons = size_24_outline()
         .into_iter()
         .map(|icon| {
-            view! { cx, <IconCell class="w-6 h-6">{icon}</IconCell>}
+            view! { <IconCell class="w-6 h-6">{icon}</IconCell>}
         })
-        .collect_view(cx);
+        .collect_view();
 
-    view! { cx,
+    view! {
         <IconGrid>{icons}</IconGrid>
     }
 }
 
 #[component]
-fn Solid20IconGrid(cx: Scope) -> impl IntoView {
-    let icons = size_20_solid(cx)
+fn Solid20IconGrid() -> impl IntoView {
+    let icons = size_20_solid()
         .into_iter()
         .map(|icon| {
-            view! { cx, <IconCell class="w-4 h-4">{icon}</IconCell>}
+            view! { <IconCell class="w-4 h-4">{icon}</IconCell>}
         })
-        .collect_view(cx);
+        .collect_view();
 
-    view! { cx,
+    view! {
         <IconGrid>{icons}</IconGrid>
     }
 }
 
 #[component]
-fn IconGrid(cx: Scope, children: Children) -> impl IntoView {
-    view! { cx,
+fn Solid16IconGrid() -> impl IntoView {
+    let icons = size_16_solid()
+        .into_iter()
+        .map(|icon| {
+            view! { <IconCell class="w-3 h-3">{icon}</IconCell>}
+        })
+        .collect_view();
+
+    view! {
+        <IconGrid>{icons}</IconGrid>
+    }
+}
+
+#[component]
+fn IconGrid(children: Children) -> impl IntoView {
+    view! {
         <ul role="list" class="grid grid-cols-4 gap-x-4 gap-y-8 sm:grid-cols-8 sm:gap-x-6 lg:grid-cols-12 xl:gap-x-8">
-            {children(cx)}
+            {children()}
         </ul>
     }
 }
 
 #[component]
 fn IconCell(
-    cx: Scope,
     #[prop(optional, into)] class: Option<AttributeValue>,
     children: Children,
 ) -> impl IntoView {
-    view! { cx,
+    view! {
         <li class="relative flex flex-col items-center">
-            <div class=class>{children(cx)}</div>
+            <div class=class>{children()}</div>
             // TODO: list the name of the icon underneath it
             // <p class="pointer-events-none block text-sm font-medium text-gray-500">"file.size"</p>
         </li>
