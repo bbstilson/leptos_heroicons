@@ -20,7 +20,7 @@ You can also include all the icons of a given type by specifying the `size-type`
 leptos_heroicons = { version = "0.2.0", features = [
     "24-solid",
     "24-outline",
-    "20-solid"
+    "20-solid",
     "16-solid"
 ]}
 ```
