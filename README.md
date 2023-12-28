@@ -7,7 +7,8 @@
 For each icon you want to use, you'll need to add a feature flag for those components. Only the icons you specify will be compiled into your application.
 
 ```toml
-leptos_heroicons = { version = "0.2.0", features = [
+
+leptos_heroicons = { git = "https://github.com/bbstilson/leptos_heroicons.git", features = [
     "24-solid-power",
     "24-outline-wrench",
     "20-solid-credit-card"
@@ -17,7 +18,7 @@ leptos_heroicons = { version = "0.2.0", features = [
 You can also include all the icons of a given type by specifying the `size-type` feature:
 
 ```toml
-leptos_heroicons = { version = "0.2.0", features = [
+leptos_heroicons = { git = "https://github.com/bbstilson/leptos_heroicons.git", features = [
     "24-solid",
     "24-outline",
     "20-solid",
@@ -36,6 +37,10 @@ fn UnlimitedPower() -> impl IntoView {
     view! { <Power /> }
 }
 ```
+
+### Why Git and not Cargo version?
+
+See [this](https://blog.rust-lang.org/2023/10/26/broken-badges-and-23k-keywords.html) blog post from the Rust team. TL;DR: The max number of features any crate can publish is 300, and this library would need to publish around 1200. While the Rust team sorts out how best to support a large number of crate features, you will need to depend on the repo directly.
 
 ## Inspiration / Credit
 
