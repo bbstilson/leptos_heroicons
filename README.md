@@ -29,7 +29,7 @@ leptos_heroicons = { git = "https://github.com/bbstilson/leptos_heroicons.git", 
 In your leptos app:
 
 ```rust
-use leptos::*;
+use leptos::prelude::*;
 use leptos_heroicons::size_24::solid::Power;
 
 #[component]

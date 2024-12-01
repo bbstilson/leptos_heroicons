@@ -1,4 +1,5 @@
-use leptos::*;
+use leptos::prelude::*;
+use leptos::either::EitherOf4;
 
 mod components;
 
@@ -20,7 +21,7 @@ pub fn main() {
 
 #[component]
 fn App() -> impl IntoView {
-    let (active_icon_type, set_icon_type) = create_signal(IconType::Solid);
+    let (active_icon_type, set_icon_type) = signal(IconType::Solid);
 
     view! {
         <div class="min-h-full">
@@ -55,10 +56,10 @@ fn App() -> impl IntoView {
                 <main>
                     <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
                         {move || match active_icon_type() {
-                            IconType::Solid => view! { <Solid24IconGrid /> },
-                            IconType::Outline => view! { <Outline24IconGrid /> },
-                            IconType::Mini => view! { <Solid20IconGrid /> },
-                            IconType::Micro => view! { <Solid16IconGrid /> },
+                            IconType::Solid => EitherOf4::A(view! { <Solid24IconGrid /> }),
+                            IconType::Outline => EitherOf4::B(view! { <Outline24IconGrid /> }),
+                            IconType::Mini => EitherOf4::C(view! { <Solid20IconGrid /> }),
+                            IconType::Micro => EitherOf4::D(view! { <Solid16IconGrid /> }),
                         }}
                     </div>
                 </main>
@@ -156,7 +157,7 @@ fn IconGrid(children: Children) -> impl IntoView {
 
 #[component]
 fn IconCell(
-    #[prop(optional, into)] class: Option<AttributeValue>,
+    #[prop(optional, into)] class: Option<String>,
     children: Children,
 ) -> impl IntoView {
     view! {

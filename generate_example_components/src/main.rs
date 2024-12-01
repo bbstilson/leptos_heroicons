@@ -54,7 +54,7 @@ fn main() -> Result<()> {
     }
 
     let mut components_file = fs::File::create("../example/src/components.rs")?;
-    writeln!(&mut components_file, "use leptos::*;\n")?;
+    writeln!(&mut components_file, "use leptos::prelude::*;\n")?;
 
     for (component_type, components) in component_type_to_components {
         writeln!(
