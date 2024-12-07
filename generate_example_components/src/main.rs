@@ -45,7 +45,7 @@ fn main() -> Result<()> {
 
             let component_name = caps["component_name"].to_string();
             let component = formatdoc! {r#"
-            view! {{ <{component_name} /> }},"#};
+            view! {{ <{component_name} /> }}.into_any(),"#};
             component_type_to_components
                 .entry(module)
                 .and_modify(|cs| cs.push(component.clone()))

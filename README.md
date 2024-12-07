@@ -36,6 +36,13 @@ use leptos_heroicons::size_24::solid::Power;
 fn UnlimitedPower() -> impl IntoView {
     view! { <Power /> }
 }
+
+// For html attributes you can use the spread syntax
+#[component]
+fn HiddenPower() -> impl IntoView {
+    view! { <Power {..} class="hidden" area-hidden="true" /> }
+}
+
 ```
 
 ### Why Git and not Cargo version?
