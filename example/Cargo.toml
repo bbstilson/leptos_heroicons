@@ -5,7 +5,7 @@ edition.workspace = true
 publish = false
 
 [dependencies]
-leptos = { workspace = true, features = ["nightly", "csr"] }
+leptos = { workspace = true, features = ["csr"] }
 leptos_heroicons = { path = "..", features = [
   "24-solid",
   "24-outline",
