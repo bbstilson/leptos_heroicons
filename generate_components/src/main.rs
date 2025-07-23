@@ -142,7 +142,7 @@ fn make_component(
     let component = formatdoc! {r#"
         #[cfg(any(feature = "{feature_name}", feature = "{feature_path}"))]
         #[component]
-        pub fn {component_name}() -> impl IntoView {{
+        pub fn {component_name}(#[prop(optional)] class: &'static str) -> impl IntoView {{
             view! {{
                 {svg}
             }}
