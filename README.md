@@ -40,7 +40,7 @@ fn UnlimitedPower() -> impl IntoView {
 // For html attributes you can use the spread syntax
 #[component]
 fn HiddenPower() -> impl IntoView {
-    view! { <Power {..} class="hidden" aria-hidden="true" /> }
+    view! { <Power class="hidden" {..} aria-hidden="true" /> }
 }
 
 ```
