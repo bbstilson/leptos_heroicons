@@ -55,7 +55,7 @@ fn App() -> impl IntoView {
             <div class="py-10">
                 <main>
                     <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-                        {move || match active_icon_type() {
+                        {move || match active_icon_type.get() {
                             IconType::Solid => EitherOf4::A(view! { <Solid24IconGrid /> }),
                             IconType::Outline => EitherOf4::B(view! { <Outline24IconGrid /> }),
                             IconType::Mini => EitherOf4::C(view! { <Solid20IconGrid /> }),
@@ -78,7 +78,7 @@ fn NavLink(
     view! {
         <button
             class=move || {
-                if active_icon_type() == icon_type {
+                if active_icon_type.get() == icon_type {
                     "border-indigo-500 text-gray-900 inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium"
                 } else {
                     "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium"
