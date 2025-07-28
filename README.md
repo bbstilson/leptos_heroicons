@@ -29,13 +29,20 @@ leptos_heroicons = { git = "https://github.com/bbstilson/leptos_heroicons.git", 
 In your leptos app:
 
 ```rust
-use leptos::*;
+use leptos::prelude::*;
 use leptos_heroicons::size_24::solid::Power;
 
 #[component]
 fn UnlimitedPower() -> impl IntoView {
     view! { <Power /> }
 }
+
+// For html attributes you can use the spread syntax
+#[component]
+fn HiddenPower() -> impl IntoView {
+    view! { <Power class="hidden" {..} aria-hidden="true" /> }
+}
+
 ```
 
 ### Why Git and not Cargo version?

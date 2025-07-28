@@ -63,7 +63,7 @@ fn generate_library(
             let module_start = formatdoc! {r#"
                 pub mod {module_name} {{
                     #[allow(unused_imports)]
-                    use leptos::*;"#};
+                    use leptos::prelude::*;"#};
             let module_start: String =
                 module_start.split('\n').map(indent_line(indent)).collect();
 
@@ -142,9 +142,7 @@ fn make_component(
     let component = formatdoc! {r#"
         #[cfg(any(feature = "{feature_name}", feature = "{feature_path}"))]
         #[component]
-        pub fn {component_name}(
-            #[prop(optional, into)] class: Option<AttributeValue>,
-        ) -> impl IntoView {{
+        pub fn {component_name}(#[prop(optional)] class: &'static str) -> impl IntoView {{
             view! {{
                 {svg}
             }}
