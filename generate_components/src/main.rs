@@ -123,7 +123,7 @@ fn get_and_prep_svg(entry: &fs::DirEntry, indent: usize) -> Result<String> {
 
     // add the ability to override the classes via props
     let re = regex::Regex::new(r"<svg ").unwrap();
-    let svg = re.replace(svg, "<svg ");
+    let svg = re.replace(svg, "<svg class=class ");
 
     let indented_svg: String =
         svg.split('\n').map(indent_line(indent)).collect();
